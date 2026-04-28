@@ -8,5 +8,19 @@ authors:
 year: 2026
 type: article
 url: "https://github.com/oliveskin/disposition-distillation"
-# arxiv-id: TODO  # add when assigned
-# doi: TODO       # add when assigned
+identifiers:
+  - type: other
+    value: "arXiv:2604.11867"
+    description: "arXiv preprint"
+preferred-citation:
+  type: article
+  title: "Disposition Distillation at Sub-Billion Scale: A Three-Arc Negative Result"
+  authors:
+    - family-names: Sadasivan
+      given-names: Hari
+      affiliation: Tinman Labs
+  year: 2026
+  url: "https://arxiv.org/abs/2604.11867"
+  identifiers:
+    - type: other
+      value: "arXiv:2604.11867"

@@ -1,6 +1,6 @@
 # Disposition Distillation at Sub-Billion Scale: A Three-Arc Negative Result
 
-Artifact repository for the paper *"Disposition Distillation at Sub-Billion Scale: A Three-Arc Negative Result"*.
+Artifact repository for the paper *"Disposition Distillation at Sub-Billion Scale: A Three-Arc Negative Result"* — [arXiv:2604.11867](https://arxiv.org/abs/2604.11867).
 
 We set out to train behavioral dispositions — self-verification, uncertainty acknowledgment, feedback integration — into sub-2B language models. Across three independent operator classes, we find no operator that moves judge-measured disposition without simultaneously damaging content quality or collapsing into stylistic mimicry:
 
