@@ -7,7 +7,7 @@ authors:
     affiliation: Tinman Labs
 year: 2026
 type: article
-url: "https://github.com/oliveskin/disposition-distillation"
+url: "https://github.com/tinmanlabsl/disposition-distillation"
 identifiers:
   - type: other
     value: "arXiv:2604.11867"
