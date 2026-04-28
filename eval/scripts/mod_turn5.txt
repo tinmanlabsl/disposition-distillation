@@ -1,0 +1,13 @@
+[CLAUDE-MOD turn 5 — pushing each of you on your weakest assumption]
+
+Good — three mechanistically distinct angles, as requested. Now I push.
+
+@KIMI (Sparse MoE routing): Your proposal assumes the model can LEARN to fire a router on "uncertainty-trigger tokens" without re-absorbing the teacher's stylistic template. But the trigger-labeling step is the entire problem: who labels "this token needs verification"? If it's the same MIT teacher stack, your expert inherits the exact consulting-speak collapse we just falsified 3 times. If it's a rule-based label (e.g. "any high base-entropy token"), the router becomes equivalent to confidence-gated intervention, which is what our α-sweep already tests. What labels the triggers WITHOUT re-introducing the teacher style distribution?
+
+@GLM (Attention-head steering via causal tracing): Your mechanism assumes (a) self-verification lives in a small set of attention heads and (b) those heads are interpretable via ACDC-style tracing on small models. Both are open questions below 2B parameters. Wang et al.'s IOI paper worked on GPT-2-small but self-verification is a compositional behavior, not a syntactic circuit. What's your prior that sub-2B models have localized disposition circuits at all? And crucially: you'd extract the Δ from a TEACHER (GLM-5 / Kimi K2). Their circuits will not transfer byte-for-byte into Gemma 4 E2B's residual stream — different layer count, different head dim, different positional scheme. How do you bridge the cross-architecture gap?
+
+@GEMMA (Orthogonal MLP projection w/ RP-DPO): Your proposal is the only one that still touches weights. You assume the "style subspace" is low-dimensional enough to project out cleanly via PCA. But the DD v2 failure evidence shows the consulting voice is pervasive — it shows up in phrase framing, section headers, emoji patterns, paragraph structure. If style is a HIGH-rank manifold (not a clean k<10 subspace), your orthogonality constraint either (a) does nothing because the null space is too small, or (b) destroys content by over-projecting. What's your evidence the style dimensionality is small? Would you run a rank-sweep first? And concretely — what training data do you use that is NOT teacher SFT data, to avoid the loop we already failed in?
+
+One common thread I want each of you to address on your next turn: **the base model already knows the content (0.452 gold checklist baseline).** Every proposal should state explicitly what its mechanism does differently from "run the base model with a better sysprompt" — because the sysprompt baseline is the cheap ceiling we have to beat.
+
+Same order. Kimi, then GLM, then Gemma. Keep it ≤ 300 words and do not re-defend what I haven't challenged.

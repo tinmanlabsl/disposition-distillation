@@ -1,0 +1,922 @@
+{
+ "summary": {
+  "model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "tag": "smollm",
+  "n_samples": 100,
+  "cells": {
+   "confident_right": 45,
+   "hedged_right": 11,
+   "confident_wrong": 33,
+   "hedged_wrong": 11
+  },
+  "rates": {
+   "accuracy": 0.56,
+   "assertion_rate": 0.78,
+   "hallucination_rate": 0.75,
+   "over_hedging_rate": 0.1964,
+   "assertion_asymmetry": -0.0536
+  }
+ },
+ "samples": [
+  {
+   "prompt_i": 0,
+   "topic": "Chateaubriand bleu vs saignant",
+   "sample_idx": 0,
+   "coverage": 0.6,
+   "correct": true,
+   "text": "Bleu and Saignant are two different methods of finishing a Chateaubriand steak.\n\n1. Bleu: This method involves searing the steak and then finishing it in a hot oven or under a broiler. The steak is seared to a golden brown color and then placed in a hot oven or under a broiler. The steak is cooked until it reaches an internal temperature of 130-135°F (54-57°C) for a bleu finish. The steak is then removed from the heat and allowed to rest for a few minutes before slicing. The carryover cooking period will not affect the bleu finish as the steak is already cooked to the desired temperature.\n\n2. Saignant: This method involves searing the steak and then finishing it in a hot oven or under a broiler. The steak is seared to a golden brown color and then placed in a hot oven or under a broiler. The steak is cooked until it reaches an internal temperature of 130-135°F (54-57°C) for a saignant finish. The steak is then removed from the heat and allowed to rest for a few minutes before slicing. The carryover cooking period will affect the saignant finish as the steak will continue to cook in the oven or under the broiler, potentially reaching a higher internal temperature than desired.\n\nIn conclusion, the choice between bleu and saignant depends on the desired finish of the steak. Bleu is a quick and precise method that does not require a carryover cooking period, while saignant is a more traditional method that does require a carryover cooking period to ensure the steak reaches the de",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 1,
+   "topic": "Mille-feuille pate feuilletee",
+   "sample_idx": 0,
+   "coverage": 0.4,
+   "correct": false,
+   "text": "The thermal properties of puff pastry (pâte feuilletée) play a crucial role in the lamination process and subsequent baking stages of a traditional Mille-feuille. Here's how:\n\n1. Lamination: The lamination process involves folding and rolling the dough to create layers of butter and dough. The thermal properties of the puff pastry dictate the specific timing of this process. The dough needs to be at a certain temperature to ensure that the butter is pliable and the layers can be easily formed. If the dough is too cold, the butter may not be able to be rolled out smoothly, leading to uneven layers. If the dough is too warm, the butter may melt, causing the layers to become too thin and the pastry to collapse.\n\n2. Baking: The thermal properties of the puff pastry also dictate the baking process. The dough needs to be baked at a high temperature to set the layers and create a crispy texture. However, if the dough is baked too quickly, the layers may not have time to set properly, leading to a soggy or flaky texture. On the other hand, if the dough is baked too slowly, the layers may not have time to develop properly, leading to a less flaky texture.\n\nTo ensure optimal aeration and structural integrity, the lamination process should be performed at a temperature of around 20-25°C (68-77°F) and the baking process should be performed at a temperature of around 180-190°C (356-374°F). This allows the butter to be pliable and the layers to be formed properly, while also ensuring that ",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 2,
+   "topic": "Bechamel lumpy fix",
+   "sample_idx": 0,
+   "coverage": 0.2,
+   "correct": false,
+   "text": "Béchamel sauce can become lumpy due to the presence of starch in the milk. Here are a few methods to restore its smooth texture:\n\n1. **Use Instant Starch**: If you're using instant starch, it can help to thicken the sauce without making it lumpy.\n\n2. **Add a Small Amount of Cornstarch**: If you don't have instant starch, you can try adding a small amount of cornstarch to the sauce. Mix it well before cooking.\n\n3. **Use a Whisk**: Whisk the sauce continuously while it's cooking. This can help to prevent lumps from forming.\n\n4. **Use a Blender**: If the sauce is still lumpy after trying the above methods, you can try blending it in a blender. This will help to break up any remaining lumps.\n\n5. **Add a Small Amount of Butter**: If the sauce is still lumpy after trying the above methods, you can try adding a small amount of butter. The fat in the butter can help to emulsify the sauce and make it smooth.\n\nRemember, it's important to cook the sauce slowly and over low heat to prevent lumps from forming.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 3,
+   "topic": "Hollandaise re-emulsify",
+   "sample_idx": 0,
+   "coverage": 0.0,
+   "correct": false,
+   "text": "Sure, I can help you with that. Here are a few methods to re-emulsify your Hollandaise sauce:\n\n1. **Whisk the sauce:** Start by whisking the sauce vigorously. This will help to reintroduce the fat into the water and re-emulsify the sauce.\n\n2. **Add a little fat:** If the sauce is particularly thick, you can add a small amount of fat (like a tablespoon of butter or a pat of butter) and whisk it in. This will help to reintroduce the fat into the water and re-emulsify the sauce.\n\n3. **Use a blender:** If the sauce is still quite thick, you can transfer it to a blender and blend it for a few seconds. This will help to break down the fat and reintroduce it into the water.\n\n4. **Use a hand blender:** If you don't have a blender, you can use a hand blender to mix the sauce. This will help to break down the fat and reintroduce it into the water.\n\nRemember, it's important to whisk the sauce vigorously after adding the fat or using a blender. This will help to prevent the sauce from separating again.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 4,
+   "topic": "Coq au Vin bitter",
+   "sample_idx": 0,
+   "coverage": 0.6,
+   "correct": true,
+   "text": "There are a few reasons why your Coq au Vin might taste bitter:\n\n1. Over-cooking: Coq au Vin is a dish that requires a balance of tender and well-cooked meat and vegetables. If the meat is overcooked, it can become tough and bitter.\n\n2. Over-soaking the onions: The onions are a key ingredient in Coq au Vin. If they are over-soaked in wine, they can become too sweet and lose their bitterness.\n\n3. Using the wrong type of wine: The type of wine you use can greatly affect the flavor of your Coq au Vin. A full-bodied red wine with a high tannin content, like a Cabernet Sauvignon, is typically used. If you're using a white wine, it might not have enough tannins to balance the dish.\n\n4. Not reducing the wine: The reduction process is crucial in Coq au Vin. If the wine is not reduced enough, it can be too watery and lacking in flavor.\n\nTo balance the bitterness, you can try the following:\n\n1. Use a different type of wine: If you're using a white wine, try using a red wine. If you're using a red wine, try using a white wine.\n\n2. Add more acidity: If the dish is too bitter, you can try adding more acidity. This can be done by adding a squeeze of fresh lemon juice or a splash of vinegar.\n\n3. Add more fat: If the dish is too bitter, you can try adding more fat. This can be done by adding more butter or oil to the dish.\n\n4. Adjust the cooking time: If the meat is overcooked, try cooking it for less time. If the onions are over-soaked, try reducing the amount of wine you use.\n\nRemember, th",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 5,
+   "topic": "Mirepoix browned not sweated",
+   "sample_idx": 0,
+   "coverage": 0.6,
+   "correct": true,
+   "text": "There are a few reasons why your Mirepoix turned out dark brown instead of translucent during the sauté process:\n\n1. Overcooking: Mirepoix is a mixture of diced vegetables, typically carrots, celery, and onions. If you overcook these vegetables, they will turn brown. To prevent this, make sure to cook them until they are tender but not browned.\n\n2. Too much oil: If you added too much oil to the pan, it could have caused the vegetables to brown. Try using less oil or using a non-stick pan to reduce the need for oil.\n\n3. Incorrect heat: If the heat was too high, it could have caused the vegetables to brown. Try reducing the heat to medium or medium-low.\n\n4. Insufficient stirring: If the vegetables weren't stirred enough, they could have stuck to the bottom of the pan and turned brown. Make sure to stir the vegetables frequently during the sauté process.\n\nRemember, the goal of sautéing is to cook the vegetables until they are tender, not to make them brown. If you're still having trouble, you might want to try a different method, such as roasting your vegetables.",
+   "verbal": "hedge"
+  },
+  {
+   "prompt_i": 6,
+   "topic": "Consomme too salty",
+   "sample_idx": 0,
+   "coverage": 0.0,
+   "correct": false,
+   "text": "SmolLM: It's unfortunate that you've encountered this issue, but there are a few methods you can use to dilute the salt in your consommé without compromising its clarity. \n\n1. Use a Thickener: Thickeners like egg yolks or cornstarch can help to absorb some of the excess salt. However, be careful not to add too much, as this could affect the clarity of your consommé.\n\n2. Add a Neutral Flavor: If you're adding a neutral flavor like a bouillon cube or a small amount of chicken or beef broth, it can help to dilute the salt without affecting the clarity.\n\n3. Use a Salt Substitute: There are several salt substitutes available that are designed to be used in cooking. These can be a good option if you're looking for a more natural alternative to salt.\n\n4. Adjust the Cooking Time: If you've added the salt too late in the cooking process, it may be possible to dilute it by adding more liquid and cooking the consommé for a longer time. However, this method can be tricky and may affect the clarity.\n\nRemember, the key to a good consommé is balance. If you're having trouble finding the right balance, it might be worth consulting a professional chef or a cooking guide for more specific advice.",
+   "verbal": "hedge"
+  },
+  {
+   "prompt_i": 7,
+   "topic": "Creme Brulee grainy",
+   "sample_idx": 0,
+   "coverage": 0.4,
+   "correct": false,
+   "text": "It seems like you might be experiencing a temperature issue with your Crème Brûlée. The curdled texture could be due to the cream not being heated to the right temperature before adding the sugar and egg yolks. The cream should be heated to at least 180°F (82°C) to ensure it's hot enough to cook the egg mixture properly. If the cream isn't hot enough, it can result in a grainy texture.",
+   "verbal": "hedge"
+  },
+  {
+   "prompt_i": 8,
+   "topic": "Jus lie too thin",
+   "sample_idx": 0,
+   "coverage": 0.75,
+   "correct": true,
+   "text": "To increase the viscosity of your Jus lié, you can try the following methods:\n\n1. Heat: Heating the Jus lié can increase its viscosity. However, be careful not to overheat it as it can become too thick and difficult to pour.\n\n2. Thickening Agents: You can add thickening agents like cornstarch, tapioca starch, or flour to your Jus lié. These will help to thicken the sauce and increase its viscosity.\n\n3. Cold Ingredients: If you're using cold ingredients like vegetables or meat, try adding them to the Jus lié while it's still warm. This can help to increase the sauce's thickness.\n\n4. Thickening Agents in the Sauce: Some thickening agents can be added directly to the Jus lié. These include ingredients like roux, which is made by mixing flour and butter or oil.\n\n5. Reducing the Sauce: If your Jus lié is still too thin, try reducing it. This involves simmering the sauce until it has reduced by half, which can help to thicken it.\n\nRemember, the key to thickening a sauce is to add the ingredients gradually and to cook the sauce until it reaches the desired consistency.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 9,
+   "topic": "Souffle collapse two causes",
+   "sample_idx": 0,
+   "coverage": 0.5,
+   "correct": true,
+   "text": "There are two common technical causes for a soufflé to collapse:\n\n1. **Insufficient Leavening**: Soufflés rely on the release of carbon dioxide gas from the egg whites to rise. If the egg whites are not beaten to the proper consistency or if the soufflé is not cooked long enough, the gas bubbles may not form properly, leading to a collapse.\n\n2. **Inadequate Moisture**: Soufflés need a good balance of egg whites and yolks. If the egg whites are not properly incorporated into the yolk mixture, or if the soufflé is not cooked long enough, the egg whites may not have enough moisture to hold their shape, causing the soufflé to collapse.\n\nRemember, patience and practice are key when making soufflés.",
+   "verbal": "hedge"
+  },
+  {
+   "prompt_i": 10,
+   "topic": "Demi-glace over-reduced salty",
+   "sample_idx": 0,
+   "coverage": 0.0,
+   "correct": false,
+   "text": "Over-reduced Demi-glace can be a bit of a pickle, but don't worry, there are a few ways to fix it:\n\n1. **Add Water or Stock**: If the Demi-glace is still a bit too salty, you can try adding a bit of water or stock to it. Start with a small amount and gradually add more until the saltiness is balanced.\n\n2. **Use a Salt-Reducing Agent**: Some people find that adding a pinch of salt-reducing agent like a mixture of sugar and water (1:1) can help to reduce the saltiness.\n\n3. **Simmer it Down**: If the Demi-glace is still too salty, you can try simmering it down. This will help to evaporate some of the excess salt. However, be careful not to over-simmer as it can make the sauce even more salty.\n\n4. **Use a Thickener**: If the sauce is too salty, you can try adding a thickener like cornstarch or flour to it. This will help to absorb some of the excess salt.\n\nRemember, it's always better to add a bit of salt to a sauce rather than too much. So, if you're unsure, it's better to add a bit of salt and adjust as needed.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 11,
+   "topic": "Pommes Frites soggy",
+   "sample_idx": 0,
+   "coverage": 0.2,
+   "correct": false,
+   "text": "There are a few potential reasons why your Pommes Frites might be soggy instead of crispy:\n\n1. Over-soaking: If your fries are too cold, they might absorb too much oil, making them soggy. Make sure they're at room temperature before frying.\n\n2. Over-frying: If you fry them for too long, the outside will be cooked and the inside will be soggy. The ideal frying time is about 3-4 minutes.\n\n3. Using too much oil: If you use too much oil, it can cause the fries to absorb more oil and become soggy. Use enough oil to cover the fries, but not so much that they're swimming in it.\n\n4. Not draining properly: After frying, make sure to drain the excess oil off the fries. If they're left in the oil, they'll continue to absorb oil and become soggy.\n\n5. Not storing properly: If you store your fries in the fridge, they can become soggy. Try to store them at room temperature.\n\nRemember, the key to crispy Pommes Frites is to fry them at the right temperature and for the right amount of time.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 12,
+   "topic": "Veloute too thick",
+   "sample_idx": 0,
+   "coverage": 0.25,
+   "correct": false,
+   "text": "Absolutely, I can help you with that. Here are a few tips to adjust the consistency of your Velouté:\n\n1. **Add Warm Water:** If your Velouté is too thick, you can add a bit of warm water to it. The amount you need to add will depend on the thickness you want. Remember, it's better to add a little at a time and adjust as needed.\n\n2. **Use a Roux:** If your Velouté is too thick, you can try making a roux. A roux is a mixture of flour and fat (like butter or oil) that you cook together until it's a light brown color. Once it's done, you can add it to your Velouté and it will help to thin it out.\n\n3. **Add Milk or Cream:** If your Velouté is too thick, you can try adding some milk or cream. The amount you need to add will depend on the thickness you want.\n\n4. **Use a Thickener:** There are also commercial thickeners you can use to adjust the consistency of your Velouté. These can be found in most grocery stores.\n\nRemember, the key is to add a little at a time and adjust as needed. You want to keep the flavor of your Velouté intact, not overpower it with too much water or milk.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 13,
+   "topic": "Omelette rubbery",
+   "sample_idx": 0,
+   "coverage": 0.25,
+   "correct": false,
+   "text": "Omelette aux Fines Herbes is a delicate dish, and it's not uncommon for it to turn out tough if not cooked properly. Here are a few things you might have done wrong:\n\n1. **Insufficient Heat:** If the heat was too low, the eggs might not cook evenly. You want to ensure that the pan is hot enough to cook the eggs quickly and evenly.\n\n2. **Incorrect Cooking Time:** Omelettes should be cooked for about 2-3 minutes on each side. If they're not cooked through, they can become rubbery.\n\n3. **Inadequate Mixing:** After you pour the eggs into the pan, it's important to gently fold them over so that they don't stick to the pan. If you fold them too much, they can become tough.\n\n4. **Incorrect Egg Size:** If the eggs are too large, they can be difficult to cook evenly. It's best to use a smaller egg for a delicate omelette.\n\n5. **Inadequate Mixing of Herbs:** If the herbs aren't mixed well into the eggs, they can end up on the bottom of the omelette, making it tough.\n\nRemember, practice makes perfect. The next time you make an omelette, try to pay more attention to the heat, timing, and mixing. Happy cooking!",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 14,
+   "topic": "Forgot to deglaze duck pan",
+   "sample_idx": 0,
+   "coverage": 0.4,
+   "correct": false,
+   "text": "Deglazing is a crucial step in the cooking process that can significantly impact the final sauce. When you deglaze, you're adding a liquid to the hot pan to loosen the browned bits of food, which are rich in flavor. In your case, the duck breast has left behind a flavorful crust.\n\nIf you've forgotten to deglaze, the sauce will be less flavorful. The duck fat and the browned bits will have stuck to the pan, leaving the sauce with a less intense flavor. \n\nTo compensate, you can try the following:\n\n1. Use a different liquid: You can use water, chicken broth, or even a wine or beer to deglaze. The choice of liquid will affect the flavor of the sauce.\n\n2. Add aromatics: If you can't deglaze, you can add aromatics like onions, garlic, or herbs to the pan. They will release their flavors into the pan, which can then be used to make a sauce.\n\n3. Add a roux: A roux is a mixture of flour and fat that you can add to the pan to thicken the sauce. This will help to compensate for the lack of deglazed liquid.\n\n4. Make a sauce from scratch: If you're short on time, you can make a sauce from scratch. This will allow you to control the flavor and add any additional ingredients you like.\n\nRemember, deglazing is a key step in creating a flavorful sauce. It's worth the extra time to do it right.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 15,
+   "topic": "Ganache split",
+   "sample_idx": 0,
+   "coverage": 0.25,
+   "correct": false,
+   "text": "Ganache is a mixture of chocolate and cream that can sometimes split or become oily. Here's a simple method to bring it back together:\n\n1. Allow the Ganache to cool down: If it's still warm, it might be too soft to work with. Let it cool down to room temperature.\n\n2. Use a spatula or spoon: Gently scoop out a small amount of the Ganache and place it on a piece of parchment paper or a plate.\n\n3. Add the remaining Ganache: Now, take the remaining Ganache and slowly pour it over the small amount you just scooped out. Try to do this in a way that the two parts of the Ganache mix together.\n\n4. Use a spatula or spoon to mix: Gently use a spatula or spoon to mix the two parts together. Be careful not to overmix, as this can make the Ganache too firm.\n\n5. Repeat if necessary: If the Ganache is still too oily or split, you can repeat the process.\n\nRemember, Ganache is a delicate mixture, so be gentle when handling it. If it's still not right, you might need to start over with a new batch.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 16,
+   "topic": "Quiche Lorraine hard crust",
+   "sample_idx": 0,
+   "coverage": 0.2,
+   "correct": false,
+   "text": "The Quiche Lorraine crust is extremely hard and difficult to bite because it is made with a high proportion of butter and egg, which can make the dough tough and difficult to chew. This is often due to a mistake in the preparation of the pâte brisée, specifically in the ratio of flour to butter. If the butter is not incorporated into the flour properly, it can result in a dough that is too dense and difficult to work with. Additionally, if the dough is not rolled out and shaped correctly, it can also contribute to the hardness of the crust.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 17,
+   "topic": "Beurre Blanc broken from heat",
+   "sample_idx": 0,
+   "coverage": 0.5,
+   "correct": true,
+   "text": "I'm sorry to hear that your Beurre Blanc has broken due to excessive heat. Here are a few steps you can take to save it:\n\n1. **Cool the sauce**: The first thing you should do is to let the sauce cool down. This will help to prevent the proteins from breaking down further.\n\n2. **Stir in a little cold butter**: Once the sauce has cooled down, you can start adding a few drops of cold butter. This will help to re-emulsify the sauce.\n\n3. **Continue adding butter**: Continue adding cold butter, one or two drops at a time, stirring continuously. This will help to re-emulsify the sauce and prevent it from breaking again.\n\n4. **Add a splash of cold water**: If the sauce is still breaking, you can try adding a splash of cold water. This will help to thin out the sauce and prevent it from breaking.\n\n5. **Stir in a pinch of flour**: If the sauce is still breaking, you can try adding a pinch of flour. This will help to thicken the sauce and prevent it from breaking.\n\nRemember, it's important to stir constantly while adding the butter and water to prevent the sauce from breaking again. If the sauce still breaks, you may need to start over.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 18,
+   "topic": "Ratatouille mushy",
+   "sample_idx": 0,
+   "coverage": 0.2,
+   "correct": false,
+   "text": "I'm sorry for the confusion, but as a text-based AI, I don't have the ability to provide hands-on cooking advice. However, I can suggest a few general methods to help you salvage the texture of your overcooked Ratatouille:\n\n1. **Blend it**: If the puree is still somewhat chunky, you can blend it until it's smooth. This will help to break down the vegetables and make them more creamy.\n\n2. **Add some cream**: If the puree is too thick, you can add some cream or milk to it. This will help to thin it out and make it more like a sauce.\n\n3. **Add some eggs**: If the puree is too thick, you can add some eggs to it. Whisk the eggs until they're light and fluffy, then add them to the puree. This will help to lighten it up and make it more like a sauce.\n\n4. **Add some cheese**: If the puree is too thick, you can add some cheese to it. This will help to add some creaminess and make it more like a sauce.\n\nRemember, these are just suggestions. The best way to salvage your overcooked Ratatouille will depend on your personal preference.",
+   "verbal": "hedge"
+  },
+  {
+   "prompt_i": 19,
+   "topic": "Sabayon thin no peaks",
+   "sample_idx": 0,
+   "coverage": 0.25,
+   "correct": false,
+   "text": "The issue you're experiencing with your Sabayon not holding its peaks could be due to a few reasons. However, the most common cause is usually the temperature of the bain-marie. If the water in the bain-marie is too hot, it can cause the egg whites to cook too quickly, leading to a thinner and less stable Sabayon.\n\nTo fix this, you should ensure that the water in the bain-marie is at the right temperature. The ideal temperature for egg whites is around 140-145°F (60-63°C). If the water is too hot, you can either reduce the heat or let the water cool down before adding the egg whites.\n\nIf you're still having trouble, you might want to consider using a thermometer to monitor the temperature of the water.",
+   "verbal": "hedge"
+  },
+  {
+   "prompt_i": 20,
+   "topic": "Hollandaise too acidic",
+   "sample_idx": 0,
+   "coverage": 0.0,
+   "correct": false,
+   "text": "To neutralize the acidity of your Hollandaise sauce without curdling it, you can add a few drops of a neutral-tasting oil, such as canola or grapeseed oil. The oil will help to balance the acidity and prevent the sauce from curdling. Start by adding a few drops of oil to the sauce, stirring continuously, and then gradually add more oil until the sauce reaches your desired consistency. Remember, it's better to add a little oil at a time and stir well, rather than adding too much at once.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 21,
+   "topic": "Brioche won't rise",
+   "sample_idx": 0,
+   "coverage": 0.8,
+   "correct": true,
+   "text": "There are several factors that could have led to your Brioche dough not rising during the proofing stage. Here are two of the most likely culprits:\n\n1. **Incorrect Temperature**: The ideal temperature for proofing Brioche dough is between 75°F and 80°F (24°C and 27°C). If the temperature is too high, the yeast may not have enough time to ferment, leading to a less-risen dough. If the temperature is too low, the yeast may not be active enough to produce the necessary gas for the dough to rise.\n\n2. **Insufficient or Inadequate Yeast**: The yeast in your dough may not have been active enough to produce the necessary gas for the dough to rise. This could be due to the yeast being old or expired, or the dough not being mixed or kneaded properly.\n\nTo solve this issue, you could try to adjust the temperature of your proofing area, or ensure that your yeast is fresh and active. You could also try to knead your dough more thoroughly to ensure that the yeast is evenly distributed.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 22,
+   "topic": "Bechamel small lumps",
+   "sample_idx": 0,
+   "coverage": 0.25,
+   "correct": false,
+   "text": "Béchamel sauce can sometimes develop lumps due to the starch in the milk not fully dissolving. Here's a quick and easy method to restore its smooth texture:\n\n1. Pour the sauce into a clean, dry saucepan.\n2. Add a small amount of cold water to the saucepan.\n3. Slowly whisk the water into the sauce until the lumps disappear.\n4. Continue to whisk the sauce until it is smooth and creamy.\n5. If the sauce is still too thick, you can add a small amount of warm milk and continue to whisk until the desired consistency is reached.\n\nRemember, it's important to whisk the sauce constantly while adding the water or milk to prevent the lumps from re-forming.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 23,
+   "topic": "Hollandaise separated oily",
+   "sample_idx": 0,
+   "coverage": 0.5,
+   "correct": true,
+   "text": "SmolLM, I'm sorry to hear that your Hollandaise emulsion has separated. Here are a few steps you can take to fix it:\n\n1. **Stir vigorously**: Give the sauce a good stir with a whisk or a spoon. This can help to re-emulsify the sauce.\n\n2. **Add a bit of fat**: If the sauce is too thin, you can add a small amount of butter or clarified butter to it. This will help to thicken the sauce and re-emulsify it.\n\n3. **Add egg yolk**: If the sauce is too thick, you can add a bit of egg yolk. This will help to emulsify the sauce again.\n\n4. **Use a blender**: If the sauce is still separated, you can use a blender to mix it. Be careful as the sauce can be quite hot.\n\n5. **Cool the sauce**: If the sauce is too hot, it can cause the emulsion to separate. Let the sauce cool down before trying to re-emulsify it.\n\nRemember, Hollandaise sauce is a delicate emulsion, so it's best to use it immediately after making it. If you can't use it right away, it's best to refrigerate it and use it within a day.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 24,
+   "topic": "Bearnaise broken",
+   "sample_idx": 0,
+   "coverage": 0.25,
+   "correct": false,
+   "text": "SmolLM here:\n\nDon't worry, it's quite common for sauces to break. Here's a simple technique to fix it:\n\n1. First, let the sauce cool down a bit. This will make it easier to handle.\n\n2. Take a spoon and gently stir in a small amount of the sauce into a bowl of cold water. This will help to break down the emulsion.\n\n3. Once you've added the sauce to the water, stir it around until it's fully incorporated.\n\n4. Now, take a spoon and slowly pour the water back into the sauce, stirring continuously. This will help to re-emulsify the sauce.\n\n5. Keep stirring until the sauce is smooth and creamy again.\n\nRemember, it's important to be gentle when whisking the sauce back together. You don't want to overwork it and end up with a lumpy sauce.\n\nIf the sauce still doesn't come together, you might need to start over with a fresh batch. But don't worry, it's not the end of the world!",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 25,
+   "topic": "Consomme cloudy clarification",
+   "sample_idx": 0,
+   "coverage": 0.4,
+   "correct": false,
+   "text": "There are several reasons why your consommé might be cloudy instead of crystal clear. Here are a few possible causes:\n\n1. Over-heating: If your stock is too hot, it can cause the egg whites to break down and the consommé to become cloudy.\n\n2. Incorrect ratio of egg whites: If the ratio of egg whites to stock is off, it can lead to a cloudy consommé.\n\n3. Incorrect timing: If the egg whites are not added at the right time, it can cause the consommé to become cloudy.\n\n4. Incorrect stirring: If the egg whites are not stirred properly, it can cause the consommé to become cloudy.\n\n5. Incorrect acidity: If the acidity of the stock is off, it can cause the consommé to become cloudy.\n\nTo avoid this, make sure to use a good quality stock, keep it at the right temperature, and stir the egg whites in at the right time. Also, ensure that the acidity of the stock is correct. If you're still having trouble, you might want to consider making a new consommé.",
+   "verbal": "hedge"
+  },
+  {
+   "prompt_i": 26,
+   "topic": "Coq au Vin too salty",
+   "sample_idx": 0,
+   "coverage": 0.0,
+   "correct": false,
+   "text": "If you've added too much salt to your Coq au Vin, you can balance the seasoning by adding a pinch of sugar. The sugar will help to counterbalance the saltiness and bring out the natural sweetness of the dish. However, if you're looking for a more traditional approach, you could also try adding a small amount of fresh thyme or a bay leaf to your sauce. These ingredients will not only add depth to the flavor but also help to balance the seasoning.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 27,
+   "topic": "Creme Anglaise curdled",
+   "sample_idx": 0,
+   "coverage": 0.0,
+   "correct": false,
+   "text": "I'm sorry for the confusion, but as a text-based AI, I don't have the ability to provide real-time assistance or check the specifics of your recipe. However, I can suggest a general troubleshooting for your Crème Anglaise:\n\n1. Ensure your eggs are at room temperature. If they're cold, the mixture may not thicken properly.\n2. If the mixture has curdled, it's not necessarily a disaster. You can try to recover it by gently heating it over low heat, stirring constantly, until it thickens again.\n3. If the mixture is grainy, it might be due to the sugar not dissolving properly. Make sure to whisk the mixture well before adding the sugar.\n\nRemember, practice makes perfect. Don't be discouraged if it doesn't turn out perfectly the first time. Keep trying and you'll get the hang of it!",
+   "verbal": "hedge"
+  },
+  {
+   "prompt_i": 28,
+   "topic": "Jus de Veau watery",
+   "sample_idx": 0,
+   "coverage": 0.5,
+   "correct": true,
+   "text": "Sure, here are a few simple methods to thicken your Jus de Veau:\n\n1. **Add Arrowroot Powder or Cornstarch**: These are thickening agents that can be easily added to your Jus de Veau. Mix a small amount of the powder into the liquid and stir well.\n\n2. **Use Gelatin or Agar Agar**: These are natural thickeners that can be added to your Jus de Veau. They can be found in most grocery stores.\n\n3. **Add Egg Yolk**: Egg yolks can also be used to thicken your Jus de Veau. Simply whisk a few egg yolks into the liquid and stir well.\n\n4. **Use a Roux**: A roux is a mixture of flour and fat (like butter or oil) that can be used to thicken sauces. Start with a small amount of flour and gradually add more as needed.\n\n5. **Add Whipped Cream**: If you have leftover whipped cream, you can add it to your Jus de Veau. The cream will naturally thicken the liquid.\n\nRemember, it's important to taste your Jus de Veau as you thicken it to ensure it's the right consistency.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 29,
+   "topic": "Souffle collapse two errors",
+   "sample_idx": 0,
+   "coverage": 0.5,
+   "correct": true,
+   "text": "There are two common technical errors that can cause a soufflé to collapse:\n\n1. Over-whisking: Over-whisking the egg whites can lead to a loss of volume and a collapse of the soufflé. This is because over-whisking can cause the egg whites to become too stiff and lose their air, which is essential for the soufflé to rise.\n\n2. Insufficient baking time: If the soufflé is not baked for long enough, it may not have enough time to set and rise properly. This can cause the soufflé to collapse when it's removed from the oven.\n\nRemember, soufflés are delicate and require patience and practice to get right.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 30,
+   "topic": "Mirepoix burnt bitter",
+   "sample_idx": 0,
+   "coverage": 0.5,
+   "correct": true,
+   "text": "There are a few potential issues that could have led to your Mirepoix turning out burnt and bitter:\n\n1. Overcooking: Mirepoix is typically cooked until it's soft and fragrant, but if it's overcooked, it can become bitter and burnt.\n\n2. Incorrect ratio of ingredients: The traditional ratio of Mirepoix is 1 part onion, 1 part carrot, and 2 parts celery. If you've deviated from this ratio, it could affect the flavor and texture of your Mirepoix.\n\n3. Incorrect cooking method: Mirepoix is typically cooked in a sauté pan over medium heat, stirring frequently. If you've cooked it for too long or at too high a heat, it can burn.\n\n4. Inadequate fat: Mirepoix is traditionally cooked in a fat, such as butter or oil. If the fat is not hot enough or is not used properly, it can prevent the Mirepoix from cooking evenly and can lead to burning.\n\nTo fix this, try cooking your Mirepoix over medium heat, stirring frequently, and using a fat that's hot enough to prevent burning. Also, make sure to adjust the ratio of ingredients if necessary, and ensure that the cooking time is appropriate.",
+   "verbal": "hedge"
+  },
+  {
+   "prompt_i": 31,
+   "topic": "Mayonnaise split fix with fresh yolk",
+   "sample_idx": 0,
+   "coverage": 0.75,
+   "correct": true,
+   "text": "If your mayonnaise has split, you can use a fresh egg yolk to correct the mistake. Here's how:\n\n1. First, you need to separate the egg yolk from the egg white. Crack the egg into a bowl, and gently break the yolk from the white.\n\n2. Once you have the yolk, add a few drops of the egg white to it. This will help to stabilize the yolk and prevent it from breaking further.\n\n3. Add a few drops of the egg yolk to the mayonnaise. This will help to stabilize the emulsion and prevent it from breaking again.\n\n4. Continue to add the egg yolk, a little at a time, until the mayonnaise is smooth and free of lumps.\n\n5. Once you've added all the egg yolk, you can continue to make your mayonnaise as usual.\n\nRemember, it's important to use a fresh egg yolk for this process. If the yolk has been sitting out for a while, it may not work as well.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 32,
+   "topic": "Bechamel lumps roux-milk integration",
+   "sample_idx": 0,
+   "coverage": 1.0,
+   "correct": true,
+   "text": "The technical error in your Béchamel sauce is likely due to the formation of lumps in the roux. This can occur when the fat in the roux doesn't fully dissolve into the milk, causing the mixture to thicken unevenly. Here are a few steps you can take to smooth out the lumps:\n\n1. **Cool the Roux:** If the roux is still warm, it can cause the milk to curdle. Allow the roux to cool down before adding it to the milk.\n\n2. **Use Cold Milk:** If possible, use cold milk instead of warm or hot milk. The cold milk will help to prevent the roux from curdling.\n\n3. **Add Milk Slowly:** When adding the milk to the roux, do it slowly. This will help to prevent the lumps from forming.\n\n4. **Stir Thoroughly:** After adding the milk, stir the mixture constantly until it's smooth.\n\n5. **Use a Blender or Food Processor:** If the lumps persist, you can use a blender or food processor to blend the sauce until it's smooth.\n\nRemember, patience is key when making a Béchamel sauce. It may take a bit of time to get it just right, but the end result is worth it.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 33,
+   "topic": "Hollandaise scientific separation",
+   "sample_idx": 0,
+   "coverage": 0.4,
+   "correct": false,
+   "text": "The separation of Hollandaise sauce into a greasy mess is due to the instability of the emulsion. Emulsions are mixtures of two or more liquids that don't normally mix, like oil and water. In the case of Hollandaise sauce, it's an emulsion of butter and egg yolks.\n\nThe key to a stable emulsion is maintaining a balance between the two components. The egg yolks contain lecithin, a natural emulsifier that helps to keep the oil droplets suspended in the water. However, when the sauce is heated, the egg yolks can break, causing the emulsion to destabilize and separate.\n\nHere are two methods to re-emulsify the Hollandaise sauce:\n\n1. **Whisking**: This is the most common method. Whisk the sauce continuously while it's still warm. This will help to re-emulsify the sauce and restore its emulsion.\n\n2. **Adding a small amount of cold butter**: If the sauce has separated completely, you can try adding a small amount of cold butter. Slowly add the butter, whisking continuously, until it's fully incorporated. This will help to re-emulsify the sauce.\n\nRemember, the key to a stable emulsion is maintaining a balance between the two components. If the sauce continues to separate, it may be best to start again with fresh ingredients.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 34,
+   "topic": "Demi-glace bitter and salty",
+   "sample_idx": 0,
+   "coverage": 0.25,
+   "correct": false,
+   "text": "I'm sorry for the confusion, but as a text-based AI, I don't have the ability to taste or assess the flavor of your Demi-glace. However, I can provide some general advice on how to balance bitter and salty flavors:\n\n1. **Add Sweeteners**: If your Demi-glace is too bitter, you can try adding a sweetener like sugar, honey, or corn syrup. The amount you need will depend on the specific recipe and the level of bitterness you're trying to balance.\n\n2. **Balance with Acid**: If your Demi-glace is too salty, you can try adding an acid like lemon juice or vinegar. This can help to balance the saltiness and add a tangy flavor.\n\n3. **Adjust the Salt**: If the saltiness is the main issue, you can try reducing the amount of salt in your recipe. However, be careful not to overdo it, as too little salt can make the sauce taste bland.\n\n4. **Balance with Other Flavors**: If the flavors in your Demi-glace are not balanced, you may need to adjust the other ingredients in the sauce. For example, if your sauce is too rich, you may need to add more acidity or a bit of fat to balance it out.\n\nRemember, it's always better to add a bit at a time and adjust as needed. It's easier to add more flavor than to remove it.",
+   "verbal": "hedge"
+  },
+  {
+   "prompt_i": 35,
+   "topic": "Creme Brulee grainy texture",
+   "sample_idx": 0,
+   "coverage": 0.2,
+   "correct": false,
+   "text": "There are a few reasons why your Crème Brûlée might have a grainy, sandy texture instead of a silky custard. Here are a few possible causes and solutions:\n\n1. **Insufficient or incorrect heating**: If the cream is not heated to the right temperature before adding the sugar, it can result in a grainy texture. Also, if the cream is not heated to the right temperature before being added to the egg mixture, it can also lead to a grainy texture.\n\n2. **Incorrect tempering**: Tempering is the process of heating the cream to a certain temperature and then cooling it down to a specific temperature. If the cream is not tempered correctly, it can result in a grainy texture.\n\n3. **Inadequate stirring**: After the cream has been heated and cooled, it should be stirred until it's smooth. If the cream is not stirred enough, it can result in a grainy texture.\n\n4. **Incorrect ratio of cream to egg**: The ratio of cream to egg is crucial. If the ratio is off, it can result in a grainy texture.\n\nTo prevent this from happening next time, make sure to:\n\n- Heat the cream to the right temperature before adding it to the egg mixture.\n- Heat the egg mixture to the right temperature before adding the cream.\n- Stir the mixture until it's smooth.\n- Use the correct ratio of cream to egg.\n- Use a thermometer to ensure the cream and egg mixture are heated to the right temperature.\n\nRemember, patience is key when making Crème Brûlée. It's a delicate process, but with practice, you'll get the hang of it.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 36,
+   "topic": "Souffle uneven rise collapse",
+   "sample_idx": 0,
+   "coverage": 0.75,
+   "correct": true,
+   "text": "Based on the information provided, the likely issues with the meringue stability or oven temperature are:\n\n1. Meringue Stability:\n   - Overmixing: Overmixing the egg whites can lead to a loss of volume and stability in the meringue.\n   - Insufficient sugar: If the sugar is not fully dissolved, it can cause the meringue to be less stable.\n   - Inadequate chilling: If the meringue is not properly chilled before baking, it can be more prone to collapse.\n\n2. Oven Temperature:\n   - Incorrect oven temperature: If the oven temperature is too high, it can cause the meringue to cook too quickly and become too dense.\n   - Inadequate heat distribution: If the oven is not evenly heated, it can cause the meringue on the bottom to cook faster than the meringue on the top, leading to an uneven rise.\n\nTo address these issues, you can try the following:\n\n- Use a stand mixer to whip the egg whites to stiff peaks, which can help prevent overmixing.\n- Make sure to fully dissolve the sugar in the egg whites before whipping.\n- Chill the meringue thoroughly before baking to ensure it is stable.\n- Use a thermometer to ensure the oven temperature is correct.\n- Use a thermometer to ensure the oven is evenly heated.\n- If you're using a baking stone or other heat-retentive surface, make sure it is preheated to the correct temperature before baking.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 37,
+   "topic": "Bearnaise too acidic",
+   "sample_idx": 0,
+   "coverage": 0.5,
+   "correct": true,
+   "text": "SmolLM, I'm sorry for the confusion, but as an AI, I don't have the ability to taste or measure the pH balance of your Béarnaise sauce. However, I can suggest some general methods to adjust the pH balance:\n\n1. Use a pH indicator: You can use a pH indicator like litmus paper or a pH meter to check the pH of your sauce. If it's too acidic, you can add a fat like butter or cream to raise the pH.\n\n2. Add baking soda: Baking soda is a common ingredient used to raise the pH of food. You can add a small amount to your sauce to neutralize the acidity.\n\n3. Use a base like cream of tartar: Cream of tartar is a common ingredient used in cooking to balance the acidity of a recipe. You can add a small amount to your sauce to raise the pH.\n\n4. Use a neutral fat: If your sauce is too acidic, you can try using a neutral fat like oil or butter to balance the pH.\n\nRemember, these are general suggestions and the best way to adjust the pH balance of your sauce will depend on the specific ingredients you're using. Always taste and adjust as you go to ensure the flavor is correct.",
+   "verbal": "hedge"
+  },
+  {
+   "prompt_i": 38,
+   "topic": "Espagnole over-reduced gluey",
+   "sample_idx": 0,
+   "coverage": 0.25,
+   "correct": false,
+   "text": "SmolLM, I'm sorry to hear that you accidentally over-reduced your Espagnole sauce. Here are a few steps you can take to restore its original viscosity and mouthfeel:\n\n1. **Cool the sauce:** Allow the sauce to cool down to room temperature. This will help prevent the sauce from becoming too thick or too thin when you add more liquid.\n\n2. **Add a small amount of liquid:** Start by adding a small amount of liquid, such as a bit of water, wine, or stock, to the sauce. Stir it in slowly and check the consistency. If it's still too thick, add more liquid.\n\n3. **Use a roux:** If the sauce is still too thick, you can try making a roux with butter and flour. Cook the roux until it's a light brown color, then gradually add it to the sauce, stirring constantly. This will help to thicken the sauce.\n\n4. **Stir slowly:** When you're adding liquid or making a roux, stir the sauce slowly to prevent it from becoming too thick or too thin.\n\n5. **Check the consistency:** Keep checking the consistency of the sauce as you add more liquid or make the roux. You want it to be thick enough to coat the back of a spoon, but not so thick that it's like a glue.\n\nRemember, it's always better to add liquid gradually and stir slowly to avoid over-thickening the sauce. If you're not sure about the consistency, it's better to add a bit more liquid than to risk over-thickening the sauce.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 39,
+   "topic": "Pommes Frites soggy oil temp",
+   "sample_idx": 0,
+   "coverage": 0.6667,
+   "correct": true,
+   "text": "I'm sorry for the confusion, but as a text-based AI, I don't have the ability to analyze specific cooking techniques or recipes. However, I can provide some general advice. \n\nThe relationship between oil temperature and moisture evaporation in frying is quite complex and depends on several factors, including the type of oil, the frying temperature, the size of the fries, and the frying time. \n\nGenerally, frying at a higher temperature (around 325°F or 165°C) will result in a crispier exterior, while frying at a lower temperature (around 300°F or 150°C) will result in a softer exterior. \n\nHowever, it's also important to consider the moisture content of the fries. If the fries are too wet, they will absorb more oil and steam, which can result in sogginess. \n\nTo achieve a crispy exterior and a soft interior, it's often recommended to fry the fries in small batches, so the oil temperature can be maintained at a consistent level. \n\nI recommend referring to a reliable cooking guide or recipe for more specific advice on frying Pommes Frites.",
+   "verbal": "hedge"
+  },
+  {
+   "prompt_i": 40,
+   "topic": "Coq au Vin cloudy broken sauce",
+   "sample_idx": 0,
+   "coverage": 0.6,
+   "correct": true,
+   "text": "There are a few potential reasons why your Coq au Vin might have a cloudy, broken sauce rather than a rich, translucent coating:\n\n1. **Insufficient Deglazing**: If you didn't deglaze the pan properly, you might not have enough liquid to create a rich, flavorful sauce. Make sure to scrape the bottom of the pan after browning the onions and garlic to release all the flavorful bits.\n\n2. **Inadequate Simmering**: If the sauce simmered for too long or at too low a temperature, it might have broken down too much, resulting in a cloudy sauce. Make sure to simmer the sauce at a moderate temperature and for a sufficient amount of time.\n\n3. **Incorrect Ratio of Wine to Stock**: The ratio of wine to stock is crucial in Coq au Vin. If you used too much wine or not enough stock, it might have resulted in a cloudy sauce. A good rule of thumb is to use 1 cup of red wine and 2 cups of chicken stock.\n\n4. **Insufficient Clarification**: If you didn't clarify the sauce properly, it might have resulted in a cloudy sauce. Clarifying the sauce involves adding a bit of flour or cornstarch to the hot sauce and then whisking it into cold water. This will help to remove any impurities and create a clearer sauce.\n\n5. **Incorrect Cooking Time**: If you cooked the sauce for too long, it might have broken down too much, resulting in a cloudy sauce. Make sure to cook the sauce for a sufficient amount of time, but not too long.\n\nRemember, the key to a rich, translucent Coq au Vin sauce is a good balance of ",
+   "verbal": "hedge"
+  },
+  {
+   "prompt_i": 41,
+   "topic": "Hollandaise too thick paste",
+   "sample_idx": 0,
+   "coverage": 1.0,
+   "correct": true,
+   "text": "Hollandaise sauce is a rich and creamy sauce, and it's not uncommon for it to thicken up. To adjust the ratio of butter to egg yolks to achieve a pourable consistency, you can try the following:\n\n1. Add a bit more egg yolks: If your sauce is too thick, you can add a bit more egg yolks. Remember, though, that egg yolks are what give the sauce its richness and flavor, so use this as a last resort.\n\n2. Add a bit of water: If you're using a thermometer, you can add a bit of water to the sauce. This will help to thin it out. If you're not using a thermometer, you can add a bit of water to the pan and stir it in.\n\n3. Use a roux: If you're making a hollandaise sauce from scratch, you can use a roux to help thin it out. A roux is a mixture of butter and flour that you cook together before adding the egg yolks. The heat from the roux will help to cook the egg yolks and thin out the sauce.\n\n4. Add a bit of lemon juice: If your sauce is too thick, you can add a bit of lemon juice. The acidity in the lemon juice will help to thin out the sauce.\n\nRemember, hollandaise sauce is a delicate sauce, so it's important to add these ingredients slowly and stir constantly. You want to avoid over-thinning the sauce, which can make it too thin and watery.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 42,
+   "topic": "Consomme cloudy raft error",
+   "sample_idx": 0,
+   "coverage": 0.5,
+   "correct": true,
+   "text": "The cloudy appearance of your consommé could be due to a few reasons:\n\n1. Incorrect temperature: The stock should be heated to a temperature between 160°F and 180°F (71°C to 82°C). If it's too hot, it can cause the gelatin in the egg whites to break down, leading to a cloudy consommé.\n\n2. Incorrect egg white ratio: The ratio of egg whites to stock should be 1:3. If the ratio is off, it can cause the consommé to become cloudy.\n\n3. Incorrect gelatin ratio: The ratio of gelatin to stock should be 1:1. If the ratio is off, it can cause the consommé to become cloudy.\n\n4. Incorrect stirring: The consommé should be stirred constantly while it's being heated. If the stirring is not consistent, it can cause the consommé to become cloudy.\n\n5. Incorrect rafting: The raft should be made from egg whites and gelatin. If the raft is not made correctly, it can cause the consommé to become cloudy.\n\nTo rectify these issues, follow these steps:\n\n1. Adjust the temperature: If the stock is too hot, let it cool down to the correct temperature. If it's too cold, heat it up to the correct temperature.\n\n2. Adjust the egg white ratio: If the ratio is off, adjust it to 1:3.\n\n3. Adjust the gelatin ratio: If the ratio is off, adjust it to 1:1.\n\n4. Stir constantly: Stir the consommé constantly while it's being heated.\n\n5. Make the raft correctly: Make the raft from egg whites and gelatin. Make sure it's not too thick or too thin.\n\nRemember, patience is key when making a consommé. It may take some time to ",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 43,
+   "topic": "Sabayon curdled high heat",
+   "sample_idx": 0,
+   "coverage": 0.4,
+   "correct": false,
+   "text": "The Sabayon you are whisking over the bain-marie has curdled into small clumps due to the heat being too high. This is because the heat causes the butter to melt and then the cream to separate, resulting in the curdling.\n\nTo attempt a rescue, you can try the following steps:\n\n1. Remove the bain-marie from the heat source.\n2. Allow the Sabayon to cool down for a few minutes.\n3. Gently stir the Sabayon with a spoon to break up the clumps.\n4. If the curdling is still noticeable, you can try adding a bit of cold cream or milk to the Sabayon. This will help to cool it down and prevent further curdling.\n5. If the curdling is still not resolved, you may need to start over with fresh cream and butter.\n\nRemember, the key to a successful Sabayon is to whisk it over a bain-marie at a low heat. If the heat is too high, it can cause the cream to curdle.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 44,
+   "topic": "Magret de Canard fat not rendered",
+   "sample_idx": 0,
+   "coverage": 0.8,
+   "correct": true,
+   "text": "Magret de Canard is a French dish that requires a delicate balance of heat and timing. Here's a step-by-step guide to help you achieve a crispy skin and a medium-rare center:\n\n1. **Preheat your pan**: Start by heating a cast-iron skillet or a heavy-bottomed frying pan over medium-high heat. Add a small amount of oil, enough to coat the bottom of the pan.\n\n2. **Season the duck**: Season the duck breast with salt and pepper on both sides.\n\n3. **Sear the duck**: Place the duck breast in the pan, skin-side down. Cook for about 3-4 minutes, or until the skin is golden brown and crispy.\n\n4. **Flip the duck**: Carefully flip the duck breast over, skin-side up. Season the breast with salt and pepper.\n\n5. **Cook the duck**: Cook the duck for another 3-4 minutes, or until the internal temperature reaches 130-135°F (54-57°C) for medium-rare.\n\n6. **Resting the duck**: Remove the duck from the pan and let it rest for 5-10 minutes. This allows the juices to redistribute, ensuring a tender and juicy duck breast.\n\n7. **Rendering the fat**: While the duck is resting, you can start rendering the fat. Place the duck skin in a cold pan and add a small amount of oil. Heat the pan over medium heat and let the fat melt. Once the fat is melted, carefully pour it off, leaving the skin in the pan.\n\n8. **Resting the duck skin**: Let the duck skin rest in the pan with the melted fat. This will help the skin to crisp up and absorb the fat.\n\nRemember, the key to a perfect Magret de Canard is to cook it to",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 45,
+   "topic": "Ganache split temperature",
+   "sample_idx": 0,
+   "coverage": 0.5,
+   "correct": true,
+   "text": "Ganache is a rich, creamy mixture of chocolate and cream that is often used as a filling for cakes and pastries. It's typically made by heating cream to a temperature between 170°F and 180°F, then adding chocolate. If the temperature of the cream is too high, it can cause the chocolate to melt and the emulsion to break, resulting in a split or oily ganache.\n\nThe temperature discrepancy that likely caused this is an over-heating of the cream. Overheating can cause the cream to denature, or lose its structure, which can lead to the chocolate melting and the emulsion breaking.\n\nTo fix the emulsion, you can try the following steps:\n\n1. Cool the cream: If the cream is too hot, let it cool down to the appropriate temperature before adding the chocolate. You can do this by placing the cream in a bowl and placing the bowl in a larger bowl filled with ice water. Stir occasionally until the cream reaches the appropriate temperature.\n\n2. Use a thermometer: Always use a thermometer to check the temperature of your cream. If it's too hot, let it cool down before adding the chocolate.\n\n3. Add the chocolate slowly: When adding the chocolate to the cream, do it slowly. This will help to prevent the chocolate from melting too quickly and will give the emulsion a better chance of forming.\n\n4. Stir gently: After adding the chocolate, stir the mixture gently. Avoid over-stirring, as this can cause the emulsion to break.\n\n5. Use a heat-resistant bowl: If you're using a heat-resistant bowl, make s",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 46,
+   "topic": "Quiche crust shrinking",
+   "sample_idx": 0,
+   "coverage": 0.6,
+   "correct": true,
+   "text": "The 'détrempe' or resting phase is a crucial step in making a Quiche Lorraine. It's when you let the butter and egg mixture rest for a while before adding the filling. If your crust is shrinking down the sides of the tin during baking, it's likely because you didn't let the détrempe rest long enough.\n\nHere are a few things you might have done wrong:\n\n1. Not letting the détrempe rest long enough: The détrempe should rest for at least 30 minutes to an hour. If you didn't give it enough time, the butter in the détrempe might not have had a chance to melt and become soft enough to evenly coat the bottom of the crust.\n\n2. Not chilling the détrempe: If you didn't chill the détrempe before adding the filling, the butter might not have hardened enough. This could cause the crust to shrink.\n\n3. Not using cold ingredients: Make sure all your ingredients, especially the butter, are cold. This will help the butter to melt evenly and the crust to hold its shape.\n\nRemember, patience is key during this process. Letting the détrempe rest and chilling your ingredients will ensure a flaky, even crust.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 47,
+   "topic": "Veloute raw flour taste",
+   "sample_idx": 0,
+   "coverage": 0.25,
+   "correct": false,
+   "text": "A Velouté with a raw flour taste can be a bit of a challenge. The raw flour taste could indicate a few things:\n\n1. Overworking the roux: If you've been stirring the roux too much, it can break down and release the raw flour taste. Try to cook the roux for a shorter time or at a lower heat.\n\n2. Insufficient fat: If the roux is not well-coated with fat, it can also taste raw. Make sure you're using enough fat (like butter or oil) and that it's heated to a high temperature before adding the flour.\n\n3. Inadequate liquid: If the liquid is not enough to fully cover the roux, it can also cause the raw flour taste. Make sure you're using enough liquid to fully cover the roux.\n\n4. Incorrect ratio: The ratio of flour to fat can affect the taste of your roux. A roux made with a higher proportion of flour can taste more raw.\n\nTo fix the flavor profile, you can try the following:\n\n1. Cook the roux for a shorter time: If you've been cooking it for too long, it can break down and release the raw flour taste. Try cooking it for a shorter time, or at a lower heat.\n\n2. Add more fat: If you're using butter, try adding more to the roux. If you're using oil, try adding more.\n\n3. Add more liquid: If the liquid is not enough to fully cover the roux, try adding more.\n\n4. Adjust the ratio: If you're using a roux made with a high proportion of flour, try reducing the amount of flour.\n\nRemember, making a good roux takes practice, so don't be discouraged if it doesn't turn out perfect the first time. Ke",
+   "verbal": "hedge"
+  },
+  {
+   "prompt_i": 48,
+   "topic": "Ratatouille mushy watery",
+   "sample_idx": 0,
+   "coverage": 0.0,
+   "correct": false,
+   "text": "Ratatouille is a French vegetable stew originating from Provence. It's typically made with a variety of vegetables, including eggplant, zucchini, bell peppers, tomatoes, and onions. The cooking sequence and liquid management are crucial in maintaining the texture of the dish.\n\n1. **Cooking the Vegetables:** The vegetables should be cooked until they are tender but still retain their shape. Overcooking can lead to mushy vegetables. \n\n2. **Deglazing:** After the vegetables are cooked, you should deglaze the pan with a liquid (usually wine, water, or a mixture of both). This process involves adding a liquid to the hot pan and scraping up the browned bits of food that stick to the bottom. This not only adds flavor to the dish but also prevents the vegetables from sticking together.\n\n3. **Stirring and Simmering:** After deglazing, stir the vegetables and let them simmer. The simmering process allows the vegetables to absorb the liquid and cook evenly. However, be careful not to overcook them, as this can lead to mushy vegetables.\n\n4. **Straining:** If you want a smoother texture, you can strain the vegetables after they've cooked. This will remove the vegetable pieces and give the dish a more uniform texture.\n\n5. **Adding Liquid:** The amount of liquid you add can also affect the texture of the dish. Too little liquid can make the vegetables dry and hard, while too much can make them mushy. The ideal amount of liquid will depend on the specific recipe and the type of vegetables yo",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 49,
+   "topic": "Pavlova meringue weeping",
+   "sample_idx": 0,
+   "coverage": 0.75,
+   "correct": true,
+   "text": "The weeping liquid in your meringue could be due to either sugar integration or oven humidity. Here's how you can diagnose each:\n\n1. Sugar Integration: This is a common issue when making meringue. It occurs when the egg whites are not beaten to the proper consistency before adding the sugar. The sugar should be dissolved completely before adding it to the egg whites. If the sugar is not fully dissolved, it can cause the meringue to become too thick and cause weeping. To avoid this, make sure to beat the egg whites until they are stiff and hold their shape before adding the sugar.\n\n2. Oven Humidity: If your oven is too humid, it can cause the meringue to become too wet. This is because the humidity in the oven can cause the egg whites to absorb too much moisture, making them too soft and causing them to weep. To avoid this, make sure your oven is well-ventilated and consider using a baking stone or baking sheet to help absorb excess moisture.\n\nRemember, both of these issues can be avoided by following the proper techniques for making meringue. If you continue to have issues, it might be worth consulting a professional or a recipe book for more detailed instructions.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 50,
+   "topic": "Mirepoix uneven cuts stock",
+   "sample_idx": 0,
+   "coverage": 0.75,
+   "correct": true,
+   "text": "The uneven cutting of your mirepoix can indeed impact the extraction of flavors for a stock. Mirepoix is a mixture of diced onions, carrots, and celery, and the ratio of these ingredients can affect the flavor of your stock. If some pieces are mushy and others are hard, it can lead to uneven cooking and flavor extraction.\n\nWhen you cook your mirepoix, the softer pieces will cook faster and release their flavors more quickly, while the harder pieces will take longer to cook and may not release their flavors as effectively. This can result in a stock that has a stronger flavor from the mushy pieces and a weaker flavor from the harder pieces.\n\nTo avoid this, it's best to cut your mirepoix into uniform pieces. This ensures that all the ingredients are cooked at the same rate, allowing all the flavors to be extracted evenly. If you can't cut them uniformly, you can also try to cook them in a way that allows for even cooking, such as in a slow cooker or a large pot where the heat is distributed evenly.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 51,
+   "topic": "Jus de Veau thin coat spoon",
+   "sample_idx": 0,
+   "coverage": 0.25,
+   "correct": false,
+   "text": "Jus de Veau, also known as veal jus, is a classic French sauce made from the juice of veal. If it's too thin to coat the back of a spoon, it's likely that the reduction process has been too quick or the veal has been cooked for too short a time. Here are a few suggestions to thicken the jus and intensify the reduction safely:\n\n1. **Increase Cooking Time**: If the jus is too thin, it's likely that the veal was cooked for too short a time. Increasing the cooking time will allow the flavors to meld together and the liquid to reduce more.\n\n2. **Increase Heat**: If the jus is too thin, it's possible that the heat was too low. Increasing the heat will allow the liquid to evaporate more quickly, thickening the jus.\n\n3. **Add Thickening Agents**: You can also add thickening agents to the jus. Some common options include cornstarch, flour, or arrowroot powder. These should be added to the jus in small amounts, stirring constantly to prevent lumps from forming.\n\n4. **Increase the Liquid**: If the jus is too thin, you can simply add more liquid. This could be water, stock, or even a bit of cream. The key is to add the liquid slowly, stirring constantly, to prevent the jus from becoming too thin.\n\n5. **Simmer**: If the jus is too thin, it's possible that it was simmered for too long. Simmering the jus for a shorter period of time will allow the flavors to meld together more quickly, thickening the jus.\n\nRemember, when thickening a sauce, it's important to stir constantly to prevent lumps",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 52,
+   "topic": "Hollandaise separated two methods",
+   "sample_idx": 0,
+   "coverage": 0.75,
+   "correct": true,
+   "text": "1. Whisking: This is the most common method to re-emulsify a Hollandaise sauce. You can do this by slowly adding the hot sauce to the egg yolks while continuously whisking. This will help to incorporate the egg yolks into the sauce and prevent the yolks from breaking.\n\n2. Using an Immersion Blender: If you don't have a whisk, you can also use an immersion blender to re-emulsify the sauce. Simply blend the sauce and egg yolks together until smooth and creamy. This method is especially useful if you're in the middle of cooking and need to re-emulsify the sauce quickly.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 53,
+   "topic": "Bechamel lumps milk stage",
+   "sample_idx": 0,
+   "coverage": 0.25,
+   "correct": false,
+   "text": "Béchamel sauce can sometimes develop lumps due to the type of milk used or the speed at which it's incorporated. Here are a few steps you can take to rectify the texture:\n\n1. **Use the Right Milk:** The type of milk you use can affect the texture of your Béchamel. Whole milk tends to create a smoother sauce, while skim milk can result in a slightly grainy texture.\n\n2. **Slow and Steady:** When you're incorporating the milk into the sauce, do it slowly and steadily. This will help to prevent the milk from becoming too hot and creating lumps.\n\n3. **Use a Blender or Food Processor:** If you're using a blender or food processor, make sure to blend or process the milk and sauce together until it's smooth.\n\n4. **Add a Small Amount of Hot Milk:** If the sauce is too thick, you can add a small amount of hot milk to thin it out. This will help to prevent lumps from forming.\n\n5. **Stir Thoroughly:** After you've added the hot milk, make sure to stir the sauce thoroughly to ensure that the lumps are fully incorporated.\n\nRemember, practice makes perfect. The more you make Béchamel, the more you'll get a feel for how to prevent lumps from forming.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 54,
+   "topic": "Consomme cloudy raft formation",
+   "sample_idx": 0,
+   "coverage": 0.5,
+   "correct": true,
+   "text": "If a Consommé appears cloudy rather than crystal clear after clarification, it is likely due to the following reasons:\n\n1. Incorrect Temperature: The temperature of the stock or broth used for the consommé can affect the clarity. If the temperature is too high, it can cause the gelatin in the stock to break down, leading to a cloudy consommé.\n\n2. Incorrect Clarification Time: The time it takes to clarify the consommé can also affect its clarity. If the consommé is not clarified for long enough, the gelatin in the stock may not have time to break down and set, leading to a cloudy consommé.\n\n3. Incorrect Clarification Method: The method used for clarification can also affect the clarity of the consommé. For example, if the consommé is clarified using a traditional method that involves adding egg whites, the consommé may not be clear if the egg whites are not beaten to a froth.\n\n4. Presence of Air: If air is present in the consommé, it can cause it to appear cloudy. This can happen if the consommé is not stirred properly or if the consommé is not heated evenly.\n\n5. Presence of Sediment: If there is sediment in the consommé, it can cause it to appear cloudy. This can happen if the consommé is not stirred properly or if the consommé is not heated evenly.\n\nTo avoid a cloudy consommé, it is important to use the correct temperature, clarify the consommé for the correct amount of time, use the correct clarification method, avoid introducing air into the consommé, and stir the consommé",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 55,
+   "topic": "Demi-glace too salty",
+   "sample_idx": 0,
+   "coverage": 0.0,
+   "correct": false,
+   "text": "SmolLM, I'm sorry for the confusion, but as an AI, I don't have the ability to taste or smell. However, I can suggest a few general methods to balance seasoning without compromising the viscosity of a Demi-glace:\n\n1. Taste: The most direct way to check the seasoning is to taste the sauce. If it's too salty, you can add a bit of sugar or a sweetener like honey or corn syrup to balance it out.\n\n2. Adjust the acidity: If the sauce is too salty, it might be too acidic. Adding a bit of cream or a squeeze of fresh lemon juice can help balance the flavors.\n\n3. Adjust the seasoning: If the sauce is too salty, you can try adding a bit of salt to balance it out. Remember, it's easier to add more seasoning than to remove it.\n\n4. Use a roux: If the sauce is too salty, you can try making a roux with flour and butter. This can help absorb some of the excess salt.\n\n5. Use a demi-glace substitute: If the sauce is too salty, you might consider using a demi-glace substitute. There are many available on the market that are made with different ingredients and can provide a different flavor profile.\n\nRemember, it's always better to add seasoning gradually and taste as you go. This way, you can adjust the seasoning to your liking without compromising the viscosity of the sauce.",
+   "verbal": "hedge"
+  },
+  {
+   "prompt_i": 56,
+   "topic": "Creme Brulee curdled diagnose",
+   "sample_idx": 0,
+   "coverage": 0.0,
+   "correct": false,
+   "text": "The curdled texture of your Crème Brûlée could be due to several factors, but the most common cause is likely a temperature error. Here's how you can diagnose it:\n\n1. **Check the Temperature of the Milk and Egg Yolks:** The ideal temperature for the milk and egg yolks is between 140°F (60°C) and 145°F (63°C). If the milk is too hot, it can cook the egg yolks before they have a chance to thicken, leading to a curdled texture. If the egg yolks are too hot, they can also curdle.\n\n2. **Check the Temperature of the Sugar and Cream:** The sugar should be at room temperature (about 70°F or 21°C). If it's too hot, it can also curdle the egg mixture.\n\n3. **Check the Temperature of the Egg Yolks:** The egg yolks should be at room temperature (about 70°F or 21°C) before you begin. If they're too hot, they can curdle the mixture.\n\n4. **Check the Temperature of the Custard Batter:** The custard should be heated to 180°F (82°C) to 190°F (88°C) before it's poured into the ramekins. If it's not heated to the right temperature, it can curdle.\n\n5. **Check the Baking Temperature:** The custard should be baked at 325°F (165°C) to 350°F (175°C) for about 45 minutes to an hour. If it's not baked at the right temperature, it can curdle.\n\nIf you've checked all these factors and your Crème Brûlée is still curdled, it might be a problem with the recipe itself. You might want to try adjusting the recipe or the cooking time.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 57,
+   "topic": "Gastrique bitter syrupy",
+   "sample_idx": 0,
+   "coverage": 0.0,
+   "correct": false,
+   "text": "SmolLM, I'm sorry for the confusion, but as an AI, I don't have the ability to taste or assess the flavor of your Gastrique. However, I can provide some general advice on how to adjust the acidity and sweetness:\n\n1. Acidity: If your Gastrique is too acidic, you can try adding a bit of sugar to balance it out. The amount of sugar you need will depend on the specific recipe and the taste you're aiming for.\n\n2. Sweetness: If your Gastrique is too sweet, you can try adding a bit of acidity to balance it out. This could be in the form of a squeeze of fresh lemon or lime juice.\n\nRemember, these are general suggestions and the best way to adjust the flavor of your Gastrique is to taste it and adjust as needed.",
+   "verbal": "hedge"
+  },
+  {
+   "prompt_i": 58,
+   "topic": "Souffle heavy no rise",
+   "sample_idx": 0,
+   "coverage": 1.0,
+   "correct": true,
+   "text": "There are a couple of potential errors in the meringue or folding process that could have led to a heavy and under-risen Soufflé:\n\n1. Over-mixing: Over-mixing the egg whites before adding the sugar can lead to a dense and heavy texture. This is because the egg whites are not whipped to the proper consistency, which is when they are light, fluffy, and hold their shape well.\n\n2. Incorrect folding: Folding the meringue into the Soufflé batter can be tricky. If the meringue is not folded in gently enough, it can break down and lose its lightness. If the folding is done too vigorously, it can also lead to a dense and heavy texture.\n\nRemember, practice makes perfect. With time and practice, you'll get the hang of it.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 59,
+   "topic": "Beurre Blanc split heat",
+   "sample_idx": 0,
+   "coverage": 1.0,
+   "correct": true,
+   "text": "SmolLM, while Beurre Blanc is a classic French sauce, it's not typically made with cream or water. However, if you're in a pinch, you can try adding a small amount of water or cream to stabilize the sauce. Here's a general guideline:\n\n1. Add a small amount of water or cream: If the sauce has split due to heat, you can try adding a small amount of water or cream. The amount will depend on the size of the sauce and the heat it was exposed to. A general rule of thumb is to add about 1-2 tablespoons of water or cream for every cup of sauce.\n\n2. Whisk vigorously: After adding the water or cream, whisk the sauce vigorously until it's well combined. This will help to redistribute the ingredients and prevent the sauce from separating again.\n\n3. Let it sit: Allow the sauce to sit for a few minutes to let the ingredients redistribute. If the sauce is still a bit thick, you can continue to whisk until it reaches your desired consistency.\n\nRemember, this is a last resort. Beurre Blanc is a delicate sauce and should be handled with care. If you can, try to avoid adding water or cream as it can alter the flavor and texture of the sauce.",
+   "verbal": "hedge"
+  },
+  {
+   "prompt_i": 60,
+   "topic": "Mirepoix uneven brunoise saute",
+   "sample_idx": 0,
+   "coverage": 1.0,
+   "correct": true,
+   "text": "The unevenness of your Mirepoix can indeed impact the evenness of a sauté. A sauté is a cooking technique where ingredients are cooked in a pan with a small amount of fat over medium-high heat, usually in batches. The goal is to cook the ingredients quickly, so they cook evenly and retain their texture and flavor.\n\nIf your Mirepoix is not uniform in size, it can lead to uneven cooking. Larger pieces will cook faster than smaller ones, potentially leading to overcooking or burning. This can result in a loss of flavor and texture.\n\nTo avoid this, it's important to chop your ingredients into uniform pieces. This ensures that all the ingredients cook at the same rate, maintaining their texture and flavor. If you're using a food processor, you can pulse the ingredients until they're finely chopped, but make sure to do this in batches to maintain uniformity.\n\nRemember, the key to a successful sauté is to cook the ingredients quickly and evenly. If you're using a Mirepoix that's not uniform, it might be worth chopping it again or using a different cooking technique.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 61,
+   "topic": "Ganache too thin whole milk",
+   "sample_idx": 0,
+   "coverage": 0.25,
+   "correct": false,
+   "text": "Absolutely, I can help you with that. Here's a simple solution:\n\n1. Add a tablespoon of heavy cream to the Ganache. The cream will add body and thickness to the Ganache.\n\n2. Stir the cream into the Ganache until it's well combined.\n\n3. If the Ganache is still too thin, you can add a bit more heavy cream, one tablespoon at a time, until you reach the desired consistency.\n\nRemember, the key to a good Ganache is balance. Too much cream can make it too thin, while too little can make it too thick. It's all about finding the right balance.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 62,
+   "topic": "Veloute too thick to pour",
+   "sample_idx": 0,
+   "coverage": 0.5,
+   "correct": true,
+   "text": "To thin a Velouté without losing its flavor profile, you can use one of the following methods:\n\n1. **Water**: The simplest way to thin a Velouté is to add water. Start by adding a small amount of water (about 1/4 cup) to the Velouté and whisk it in. Continue adding water, 1/4 cup at a time, until the Velouté reaches the desired consistency.\n\n2. **Stock**: If you're using a chicken or beef stock, you can thin the Velouté by adding a small amount of the stock. Start with a small amount (about 1/4 cup) and whisk it in. Continue adding stock, 1/4 cup at a time, until the Velouté reaches the desired consistency.\n\n3. **Liquid Stock or Broth**: If you're using a vegetable or fish stock, you can thin the Velouté by adding a small amount of the stock. Start with a small amount (about 1/4 cup) and whisk it in. Continue adding stock, 1/4 cup at a time, until the Velouté reaches the desired consistency.\n\nRemember, it's important to whisk the Velouté constantly while adding the thinning liquid to prevent the Velouté from becoming too thin or separating.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 63,
+   "topic": "Pommes Frites limp greasy",
+   "sample_idx": 0,
+   "coverage": 1.0,
+   "correct": true,
+   "text": "The issue with your Pommes Frites could be due to either the oil temperature or the double-fry method. Here are some possible reasons:\n\n1. Oil Temperature: If the oil is not hot enough, the fries will not cook evenly and may come out limp and greasy. The ideal oil temperature for deep-frying is between 325°F (165°C) and 375°F (190°C). If the temperature is too low, the fries will absorb more oil and become greasy.\n\n2. Double-Fry Method: The double-fry method involves frying the fries twice. The first fry cooks the fries to a golden brown, and the second fry crisps them up. If the second fry is done too quickly, the fries may not have enough time to crisp up. On the other hand, if the second fry is done too long, the fries may become over-crisped and dry.\n\nTo fix this issue, you can try the following:\n\n- Check the oil temperature: Make sure the oil is at the correct temperature. If it's too low, heat the oil to the correct temperature and then let it cool down slightly before frying.\n- Adjust the frying time: If the fries are coming out too greasy, try frying them for a shorter time. If they're not crispy enough, try frying them for a longer time.\n- Use the right amount of oil: Make sure you're using the right amount of oil for the size of your fries. Too little oil will result in limp fries, while too much oil will result in greasy fries.\n\nRemember, practice makes perfect. With a bit of trial and error, you'll get the hang of it.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 64,
+   "topic": "Coq au Vin overcooked repurpose",
+   "sample_idx": 0,
+   "coverage": 0.5,
+   "correct": true,
+   "text": "Absolutely, you can repurpose the braising liquid and meat into a different French preparation. Here's a suggestion:\n\n1. **Côte de Boeuf en Croûte**: This is a French dish where you wrap a beef tenderloin in caul fat and then braise it. The caul fat will add a rich, meaty flavor to the dish.\n\n2. **Côte de Boeuf en Bœuf Bourguignon**: This is similar to the Coq au Vin, but with a few differences. Instead of using mushrooms, you'll use pearl onions and carrots. The meat will be cooked in the same way, but the sauce will be thicker and more flavorful.\n\n3. **Côte de Boeuf en Pâte Brisée**: This is a French dish where you wrap a beef tenderloin in a pastry dough and then braise it. The pastry will add a crispy, buttery flavor to the dish.\n\n4. **Côte de Boeuf en Croûte aux Fruits Rouges**: This is a French dessert where you wrap a beef tenderloin in a pastry dough and then bake it with red fruits. The beef will be cooked in a sweet, fruity sauce.\n\nRemember, the key to these dishes is to use the same braising liquid and meat, but to change the ingredients and cooking method. This will give you a completely different flavor profile. Enjoy your cooking!",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 65,
+   "topic": "Pate a Choux too stiff",
+   "sample_idx": 0,
+   "coverage": 0.25,
+   "correct": false,
+   "text": "The Pâte à Choux is a dough that is typically made with a high ratio of flour to water. If the texture is too stiff, it could be due to the water content being too high. To adjust the hydration, you could try reducing the amount of water you use. \n\nHere's a general guideline:\n\n- For a standard Pâte à Choux, you might want to reduce the water by about 10-15%. \n\nFor example, if you're currently using 1 cup of water, you could try using 0.9 to 0.85 cups of water. \n\nRemember, this is just a general guideline. The exact amount of reduction will depend on the specific recipe and the type of Pâte à Choux you're making. It's always best to start with a small reduction and adjust as needed.",
+   "verbal": "hedge"
+  },
+  {
+   "prompt_i": 66,
+   "topic": "Jus lie thin two thickeners",
+   "sample_idx": 0,
+   "coverage": 0.5,
+   "correct": true,
+   "text": "The two most common thickening agents used in French cuisine to correct a thin sauce or liquid are:\n\n1. Roux: This is a mixture of flour and fat (usually butter or oil) that is cooked together until it reaches the desired color and consistency. Roux is a versatile thickening agent that can be used to thicken sauces, soups, and stews.\n\n2. Beurre manié: This is a mixture of butter and flour that is cooked together until it reaches the desired consistency. It is often used to thicken sauces and soups, and can be easily added to a dish at the last minute.\n\nBoth of these thickening agents can be used to thicken a thin sauce or liquid, but they have different consistencies and uses. Roux is a more traditional and versatile thickening agent, while beurre manié is a more modern and convenient option.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 67,
+   "topic": "Vinaigrette too acidic",
+   "sample_idx": 0,
+   "coverage": 0.5,
+   "correct": true,
+   "text": "Sure, I can help you with that. The principle of fat-to-acid ratios is a simple yet effective way to balance the flavors in your salad dressings. Here's how you can use it to correct your vinaigrette:\n\n1. **Understand the principle**: The fat-to-acid ratio is a simple ratio of the amount of fat (like oil) to the amount of acid (like vinegar) in your dressing. A common ratio is 3:1 or 4:1, meaning for every 3 parts of fat, you have 1 part of acid.\n\n2. **Adjust the ratio**: If your vinaigrette is too sharp, you can adjust the ratio by adding more fat. This will dilute the acid and balance out the flavors.\n\n3. **Add fat**: Start by adding a small amount of oil to your vinaigrette. You can add more as needed until the flavors are balanced to your liking.\n\n4. **Taste and adjust**: Taste your dressing after adding the oil. If it's still too sharp, you can add more fat until the flavors are balanced.\n\nRemember, the key is to add fat gradually and taste as you go. This will allow you to adjust the ratio to your liking without overpowering the other flavors in your salad.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 68,
+   "topic": "Magret duck rubbery skin",
+   "sample_idx": 0,
+   "coverage": 0.5,
+   "correct": true,
+   "text": "I'm sorry for the confusion, but as a text-based AI, I don't have the ability to see or interact with images or specific dishes. However, I can suggest a few general reasons why your Magret de Canard might be rubbery:\n\n1. Overcooking: If the duck is cooked for too long, the skin can become rubbery.\n2. Incorrect cooking temperature: If the duck is cooked at a temperature that's too high, the skin can become overcooked and rubbery.\n3. Incorrect cooking time: If the duck is cooked for too long, the skin can become tough and rubbery.\n\nTo avoid this, it's important to cook the duck to the right temperature and for the right amount of time. Here are some general guidelines:\n\n- The breast should be cooked to an internal temperature of 165°F (74°C).\n- The skin should be crispy and golden brown.\n\nIf you're still having trouble, I recommend checking the specific recipe you're following or consulting a cooking expert.",
+   "verbal": "hedge"
+  },
+  {
+   "prompt_i": 69,
+   "topic": "Tarte Tatin scorched caramel",
+   "sample_idx": 0,
+   "coverage": 0.5,
+   "correct": true,
+   "text": "Scorching the bottom of a caramel can be a bit of a challenge, but it's not impossible to salvage. Here's what you can do:\n\n1. **Cool the Caramel:** Before you start, make sure the caramel is completely cooled. This will make it easier to handle and less likely to burn your hands.\n\n2. **Scrape the Caramel:** Use a spatula or a wooden spoon to scrape the caramel off the bottom. Be careful not to burn yourself.\n\n3. **Reheat the Caramel:** If the caramel is still warm, you can reheat it in a double boiler or in the microwave. Be careful not to overheat it, as this can cause it to become too soft and lose its texture.\n\n4. **Add More Ingredients:** Once the caramel is cooled and re-healed, you can add your Tarte Tatin ingredients. This could be apples, butter, sugar, and cinnamon.\n\n5. **Bake the Tarte Tatin:** Bake the Tarte Tatin as per the recipe.\n\nRemember, caramel is a delicate ingredient and it's best to handle it gently to avoid burning it. If you're not comfortable with the process, you might want to consider seeking help from a professional or a more experienced cook.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 70,
+   "topic": "Hollandaise separated new yolk method",
+   "sample_idx": 0,
+   "coverage": 0.75,
+   "correct": true,
+   "text": "Sure, I'd be happy to help you re-emulsify your Hollandaise sauce. Here's a step-by-step guide:\n\n1. **Separation**: First, you need to identify the separation. Hollandaise sauce separates when the fat and water components don't mix well. This usually happens when the sauce is heated too quickly or when it's not emulsified properly.\n\n2. **Add yolk and water**: To re-emulsify the sauce, you need to add a new yolk and a small amount of water. The yolk will help to bind the fat and water components together, while the water will help to thin out the sauce.\n\n3. **Mix well**: After adding the yolk and water, mix the sauce well. You can do this by whisking or stirring the sauce continuously.\n\n4. **Add more fat gradually**: If the sauce is still too thick, you can add more fat gradually. However, it's important to note that adding more fat immediately would have exacerbated the failure. This is because the fat would have only been added to the already separated sauce, which would have made it even more difficult to re-emulsify.\n\nAdding more fat would have made the situation worse because it would have increased the amount of fat in the sauce, making it more difficult to mix with the water. This would have resulted in a thicker, more unappetizing sauce.\n\nRemember, the key to re-emulsifying a sauce is to add the yolk and water gradually, and to mix the sauce continuously. This will help to break up the fat and water components and create a smooth, emulsified sauce.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 71,
+   "topic": "Beurre Blanc acidic thin",
+   "sample_idx": 0,
+   "coverage": 0.6,
+   "correct": true,
+   "text": "The Beurre Blanc sauce has become too acidic and thin. To rectify this, we need to adjust the reduction ratio of shallots and vinegar versus whisking in cold cubes of Beurre d'Isigny.\n\nFirstly, let's understand the role of each component in the Beurre Blanc sauce:\n\n1. Shallots: They add a sweet and pungent flavor.\n2. Vinegar: It provides acidity and balance.\n3. Beurre d'Isigny: It adds richness and a nutty flavor.\n\nIf the sauce is too acidic, it means the vinegar is overpowering the other flavors. If it's too thin, it means the reduction ratio is off.\n\nTo adjust the reduction ratio:\n\n1. If the sauce is too acidic, reduce the amount of vinegar. You can do this by whisking in cold cubes of Beurre d'Isigny. The cold cubes will help to slow down the reduction process, allowing the flavors to meld together more evenly.\n\n2. If the sauce is too thin, increase the reduction ratio. This means whisking in more shallots and vinegar. The shallots will add more sweetness, and the vinegar will add more acidity, balancing out the sauce.\n\nRemember, it's important to whisk constantly while reducing the sauce to ensure even cooking and to prevent the sauce from boiling over. Also, the reduction process can take some time, so be patient.\n\nBy adjusting the reduction ratio of shallots and vinegar versus whisking in cold cubes of Beurre d'Isigny, you can rectify the balance of your Beurre Blanc sauce.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 72,
+   "topic": "Consomme broken raft",
+   "sample_idx": 0,
+   "coverage": 0.4,
+   "correct": false,
+   "text": "To clarify the broth without losing the delicate flavor profile, you can follow these steps:\n\n1. Remove the raft: Carefully remove the raft from the consommé. It's usually made from egg whites and mirepoix, which helps to clarify the broth.\n\n2. Add new egg whites and mirepoix: Add a new batch of egg whites and mirepoix to the broth. Make sure to use the same proportions as before.\n\n3. Heat the broth: Slowly heat the broth over low heat. This will help to break down the proteins in the egg whites and mirepoix, making them more effective at clarifying the broth.\n\n4. Add a pinch of salt: Add a pinch of salt to the broth. This will help to bring out the flavors of the broth and egg whites.\n\n5. Continue to heat: Continue to heat the broth over low heat until it reaches a simmer.\n\n6. Strain the broth: Once the broth has reached a simmer, strain it through a fine-mesh sieve into a clean container. This will remove the egg whites and mirepoix, leaving you with a clear broth.\n\n7. Adjust seasoning: Adjust the seasoning of the broth as needed. You may need to add a bit more salt or other seasonings to bring out the flavors.\n\n8. Serve: Serve the consommé hot, garnished with a slice of lemon or a sprinkle of cayenne pepper, if desired.\n\nRemember, the key to clarifying a consommé without losing the delicate flavor profile is to use a new batch of egg whites and mirepoix, and to heat the broth slowly over low heat.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 73,
+   "topic": "Creme Anglaise lumps",
+   "sample_idx": 0,
+   "coverage": 0.6,
+   "correct": true,
+   "text": "Smoothness is a key factor in a good Crème Anglaise. The lumps you're seeing are likely due to the sauce being too hot. When the mixture is too hot, the proteins in the egg yolks coagulate too quickly, forming lumps. Here are two effective methods to restore a perfectly smooth texture:\n\n1. **Cool the sauce**: The first step is to cool the saucepan. If the sauce is too hot, it will continue to cook the egg proteins, leading to lumps. Allow the sauce to cool down to a temperature where it can be stirred without burning your hand. This will help the egg proteins to set properly.\n\n2. **Use a blender or immersion blender**: Once the sauce has cooled, you can use a blender or an immersion blender to break up the lumps. Blend the sauce until it's smooth and creamy. If you're using a blender, be careful as it can heat up the sauce again. If you're using an immersion blender, it's safer as it doesn't heat up the sauce.\n\nRemember, patience is key when making a Crème Anglaise. It's a delicate process and requires a bit of time to achieve the perfect texture.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 74,
+   "topic": "Veloute too thick silkiness",
+   "sample_idx": 0,
+   "coverage": 0.5,
+   "correct": true,
+   "text": "The issue with your Velouté is likely due to the starch gelatinization process. Starch gelatinization is the process by which starches absorb water and swell, becoming more soluble and gelatinous. If the starch gelatinization process is not properly balanced, it can result in a Velouté that is too thick and lacks the desired silkiness.\n\nTo thin your Velouté without diluting the flavor, you can try the following method:\n\n1. Add a small amount of cold water to the Velouté and whisk it in. This will help to break up any lumps and redistribute the starches evenly.\n\n2. Continue to whisk the Velouté until it has reached the desired consistency. You can also add a small amount of hot water to the Velouté and whisk it in, then add more cold water as needed.\n\n3. Taste the Velouté and adjust the seasoning as needed.\n\nRemember, it's important to balance the starch gelatinization process with the roux-to-liquid ratio. If the ratio is too high, the Velouté will be too thick and may not have the desired silkiness. If the ratio is too low, the Velouté may be too thin and lack the desired texture. Experiment with different ratios and techniques to find the perfect balance for your Velouté.",
+   "verbal": "hedge"
+  },
+  {
+   "prompt_i": 75,
+   "topic": "Souffle premature collapse",
+   "sample_idx": 0,
+   "coverage": 0.75,
+   "correct": true,
+   "text": "Based on the information provided, it seems that the collapse of the Soufflé could be attributed to a combination of factors. The meringue stability, oven temperature, and folding technique (macaronage) are all potential causes of the collapse.\n\n1. Meringue stability: A Soufflé relies heavily on the stability of its meringue. If the meringue is not properly stabilized, it can become too soft and lose its structure, leading to a collapse. This could be due to factors such as the egg whites being too warm or not being whipped to the right consistency.\n\n2. Oven temperature: The oven temperature can significantly impact the cooking time and the final texture of the Soufflé. If the oven is too hot, the Soufflé may cook too quickly, leading to a collapse. Conversely, if the oven is too cool, the Soufflé may not rise properly.\n\n3. Folding technique (macaronage): Macaronage is the process of gently folding the egg whites into the Soufflé mixture to incorporate air and create a stable structure. If the macaronage is not done properly, the Soufflé may not rise as well or may collapse. This could be due to factors such as overmixing or not folding the egg whites in the right order.\n\nIn conclusion, the collapse of the Soufflé could be attributed to a combination of factors, including meringue stability, oven temperature, and folding technique. It is essential to ensure that the meringue is properly stabilized, the oven temperature is correct, and the macaronage is done correctly to achie",
+   "verbal": "hedge"
+  },
+  {
+   "prompt_i": 76,
+   "topic": "Duck confit too salty",
+   "sample_idx": 0,
+   "coverage": 0.0,
+   "correct": false,
+   "text": "Sure, here's a step-by-step guide to help you salvage your Duck Confit and adjust the seasoning in the jus:\n\n**Step 1: Cool the Duck Confit**\n\nFirst, let the Duck Confit cool down to room temperature. This will prevent the fat from melting and will make it easier to handle.\n\n**Step 2: Remove the Duck Confit from the Fat**\n\nOnce the Duck Confit is cool, carefully remove it from the fat. You can do this by gently lifting the Duck Confit out of the fat with a pair of kitchen tongs.\n\n**Step 3: Debone the Duck Confit**\n\nNext, you'll need to debone the Duck Confit. This can be a bit tricky, but it's worth it. Start by cutting the Duck Confit into smaller pieces, about 1 inch by 1 inch. Then, using a pair of kitchen scissors, cut through the bone and cartilage to remove the bone. Be careful not to cut too deep, as you want to keep the meat intact.\n\n**Step 4: Adjust the Seasoning in the Jus**\n\nNow, it's time to adjust the seasoning in the jus. Since the Duck Confit is too salty, you'll want to reduce the saltiness of the jus. Here's a simple way to do this:\n\n- Remove the Duck Confit from the jus and set it aside.\n- In the same pot, reduce the jus by half. This will concentrate the flavors and reduce the saltiness.\n- Once the jus has been reduced, taste it and adjust the seasoning as needed. You can add more herbs, spices, or even a squeeze of fresh lemon juice to balance out the flavors.\n\n**Step 5: Re-season the Duck Confit**\n\nFinally, re-season the Duck Confit with the same herbs an",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 77,
+   "topic": "Gastrique crystallized",
+   "sample_idx": 0,
+   "coverage": 0.5,
+   "correct": true,
+   "text": "Gastrique is a French term used to describe a mixture of sugar and water that has crystallized into a hard mass during the cooling process. This is due to the formation of a crystalline structure, which is a result of the sugar molecules arranging themselves in a specific pattern.\n\nThe chemical reason for this is due to the process of crystallization, which is a phase transition from a solid to a solid. In this case, the sugar molecules in the syrup form a lattice structure, which is a three-dimensional arrangement of atoms or molecules. This lattice structure is what gives the sugar its hardness and crystalline appearance.\n\nTo revert the Gastrique back to a liquid syrup without burning the sugar, you can use the following method:\n\n1. Heat the Gastrique: Place the Gastrique in a saucepan and heat it over medium heat. The heat will help to melt the sugar crystals and restore the syrup consistency.\n\n2. Stir occasionally: Stir the Gastrique occasionally to ensure that the sugar crystals are evenly distributed and to prevent them from sticking to the bottom of the pan.\n\n3. Monitor the temperature: Keep an eye on the temperature of the Gastrique. If it starts to boil, reduce the heat to prevent the sugar from burning.\n\n4. Continue heating: Continue heating the Gastrique until it reaches the desired consistency.\n\n5. Cool: Once the Gastrique has reached the desired consistency, remove it from the heat and let it cool.\n\nRemember, it's important to handle the hot Gastrique with care t",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 78,
+   "topic": "Bearnaise broken heat",
+   "sample_idx": 0,
+   "coverage": 0.25,
+   "correct": false,
+   "text": "The Béarnaise sauce is a classic emulsion sauce, and it can break due to excessive heat. When this happens, you can use either a warm water bath or adding a small amount of heavy cream to stabilize the emulsion. Here's how they work:\n\n1. Warm Water Bath: This method is often used in commercial kitchens. It involves placing the broken sauce in a bowl and adding a small amount of warm water. The water helps to re-emulsify the sauce by breaking down the fat globules and re-mixing them with the other ingredients. The water should be warm, but not hot, to avoid cooking the sauce.\n\n2. Adding Heavy Cream: This method is more commonly used in home cooking. It involves adding a small amount of heavy cream to the broken sauce. The cream acts as a stabilizer, helping to re-emulsify the sauce by reducing the size of the fat globules. The cream should be added slowly, stirring continuously, to avoid creating a new emulsion.\n\nBoth methods can be effective in stabilizing the emulsion, but the choice between them depends on the specific situation. The warm water bath is more commonly used in commercial kitchens where the sauce is being prepared in large quantities, while the heavy cream method is more commonly used in home cooking.\n\nRemember, it's important to use the right amount of cream. Too much can make the sauce greasy, while too little may not be enough to stabilize the emulsion.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 79,
+   "topic": "Demi-Glace bitter viscous",
+   "sample_idx": 0,
+   "coverage": 0.25,
+   "correct": false,
+   "text": "SmolLM,\n\nThank you for reaching out. I understand your concern about the Demi-Glace becoming too bitter and viscous. Here's a professional solution to dilute it while maintaining its richness and depth:\n\n1. Start by adding a small amount of water (about 1/4 cup) to the sauce. This will help to break down the concentrated flavors and reduce the bitterness.\n\n2. Next, add a small amount of white wine or chicken broth (about 1/4 cup) to the sauce. This will not only help to dilute the sauce but also add a subtle flavor to the Demi-Glace.\n\n3. Continue to add small amounts of water and white wine or chicken broth, stirring constantly, until you reach your desired consistency.\n\n4. Once you've reached your desired consistency, you can add a small amount of cornstarch mixed with cold water to help thicken the sauce.\n\n5. Finally, cook the sauce over medium heat, stirring constantly, until it has thickened to your liking.\n\nRemember, it's important to add the ingredients slowly and stir constantly to avoid creating lumps. Also, make sure to taste the sauce as you add the ingredients to ensure that it's not too salty or bitter.\n\nI hope this helps! Let me know if you have any other questions.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 80,
+   "topic": "Pate a Choux fails to rise",
+   "sample_idx": 0,
+   "coverage": 0.6,
+   "correct": true,
+   "text": "The 'dessécher' (drying out) stage is a crucial part of making Pâte à Choux, as it helps to dry out the dough and prevent it from becoming too heavy and dense. However, if the dough fails to rise during this stage, it could be due to a few reasons:\n\n1. Insufficient heat: If the oven is not hot enough, the dough may not dry out properly, leading to a heavy and dense final product.\n\n2. Inadequate ventilation: If the oven is not well-ventilated, the steam produced during the 'dessécher' stage may not escape, leading to a buildup of moisture in the dough. This can cause the dough to become too heavy and dense.\n\n3. Incorrect oven temperature: If the oven temperature is too low, the steam produced during the 'dessécher' stage may not be able to escape, leading to a buildup of moisture in the dough.\n\n4. Inadequate drying time: If the dough is not dried out properly during the 'dessécher' stage, it may not be able to absorb the necessary amount of steam during the 'pâtissage' (drying out) stage, leading to a heavy and dense final product.\n\nIn conclusion, the failure to rise during the 'dessécher' stage of Pâte à Choux can be due to insufficient heat, inadequate ventilation, incorrect oven temperature, or inadequate drying time. To avoid this, ensure that your oven is at the correct temperature, that the dough is dried out properly during the 'dessécher' stage, and that the 'pâtissage' stage is done correctly.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 81,
+   "topic": "Jus de Veau cloudy",
+   "sample_idx": 0,
+   "coverage": 0.0,
+   "correct": false,
+   "text": "A cloudy appearance in a Jus de Veau (veal jus) can be caused by the presence of blood or other impurities in the meat. This is often due to improper bleeding or insufficient skimming of the broth. Here are a few steps to identify and correct the issue:\n\n1. **Check the bleeding process**: Ensure that the veal is bled properly. This means that the veal should be hung upside down and the blood should be allowed to drip out. The longer the veal is hung, the more blood will be drawn out.\n\n2. **Inspect the skimming process**: After bleeding, the veal should be skimmed to remove any impurities. If the veal is not properly skimmed, it can lead to cloudy broth.\n\n3. **Use a Chinois or Egg White**: If the veal jus is cloudy, you can use a Chinois or an egg white to clarify it. \n\n**Using a Chinois:**\n\nA Chinois is a strainer with a fine mesh that is used to clarify liquids. It is particularly useful for clarifying Jus de Veau because it can remove any impurities without adding any color to the broth. Here's how to use a Chinois:\n\n1. **Prepare the Chinois**: Place the Chinois over a large bowl or a sink.\n\n2. **Skim the broth**: Skim the cloudy Jus de Veau and pour it into the Chinois.\n\n3. **Stir the Chinois**: Use a spoon to stir the Chinois, making sure to get all the cloudy broth.\n\n4. **Wait**: Let the broth sit for a few minutes. The cloudy particles will sink to the bottom of the Chinois.\n\n5. **Drain the Chinois**: Carefully pour the clear broth into a clean container.\n\n**Using an Eg",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 82,
+   "topic": "Sabayon eggs curdled",
+   "sample_idx": 0,
+   "coverage": 0.4,
+   "correct": false,
+   "text": "The Sabayon, a delicate and flavorful Italian dessert, is a delicate mixture of egg yolks, sugar, and wine, whipped to a light and airy consistency. However, as you've experienced, it can sometimes curdle, resulting in a less than desirable texture.\n\nThe curdling of the Sabayon is primarily due to the coagulation of the egg proteins, which is a natural process that occurs when the egg is heated. This coagulation is triggered by the heat, which denatures the proteins, causing them to form a network of cross-linked structures. This network traps air and water, resulting in a light and fluffy texture.\n\nHowever, if the egg mixture is heated too quickly or at too high a temperature, the proteins can coagulate too quickly, leading to the curdling of the Sabayon. This is because the proteins are sensitive to heat and can be denatured at a relatively low temperature.\n\nTo rescue the texture of the Sabayon, you need to cool it down quickly. This is because the proteins are still in a denatured state and are still capable of re-coagulating. The faster you cool it down, the less likely it is that the proteins will re-coagulate.\n\nHere's a precise method to rescue the texture of your Sabayon:\n\n1. Immediately after the Sabayon has curdled, pour it into a bowl and cover it with a damp cloth. This will help to cool it down quickly.\n\n2. Place the bowl in a bowl of ice water. The ice water will help to cool the Sabayon down even faster.\n\n3. Continue to stir the Sabayon gently with a spoon until",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 83,
+   "topic": "Tarte Tatin soggy crust",
+   "sample_idx": 0,
+   "coverage": 0.75,
+   "correct": true,
+   "text": "The relationship between the fruit's moisture content and the caramelization timing is crucial in preventing soggy Tarte Tatin. The fruit should be dry enough to caramelize, but not so dry that it becomes hard and unappetizing.\n\nFruit that is too wet will not caramelize properly, leading to a soggy Tarte Tatin. This is because moisture prevents the sugar from fully bonding with the fruit, resulting in a soft, unappetizing texture.\n\nOn the other hand, fruit that is too dry will not caramelize at all, leading to a Tarte Tatin that is too hard and unappetizing.\n\nThe ideal moisture level for fruit used in Tarte Tatin is between 10% and 20% of its weight. This is because the fruit should be slightly damp, but not wet.\n\nTo achieve this, you should allow the fruit to dry out slightly before you begin to caramelize it. This can be done by patting the fruit dry with a paper towel, or by placing it in a low oven for a short period of time.\n\nOnce the fruit is dry enough, you can begin to caramelize it. The key is to cook the fruit slowly and at a low temperature, so that it has time to caramelize without burning.\n\nIn general, it's best to cook the fruit at a temperature of around 300°F (150°C) for about 20-30 minutes, or until it is golden brown and caramelized.\n\nBy following these steps, you can ensure that your Tarte Tatin is crispy and caramelized, rather than soggy.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 84,
+   "topic": "Bordelaise red wine astringent",
+   "sample_idx": 0,
+   "coverage": 0.25,
+   "correct": false,
+   "text": "1. **Sous Vide Method**: This method involves cooking the ingredients in a vacuum-sealed bag in a water bath at a precise temperature. This method helps to evenly distribute the heat and prevent overcooking, which can make the sauce bitter. For a Bordelaise sauce, you can cook the shallots and garlic in a mixture of red wine, shallots, and garlic until they are soft and fragrant. Then, strain the mixture and add it back to the sauce, along with the reduction of red wine.\n\n2. **Stir-Frying**: This method involves quickly cooking the ingredients in a small amount of oil over high heat. This method helps to break down the tannins in the red wine, making it less astringent. For a Bordelaise sauce, you can stir-fry the shallots and garlic in a small amount of oil until they are soft and fragrant. Then, add the red wine and cook until it has reduced by half. Strain the mixture and add it back to the sauce, along with the reduction of red wine.\n\nBoth of these methods will help to soften the tannins in the red wine without compromising the sauce's body.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 85,
+   "topic": "Mayonnaise broken oil too fast",
+   "sample_idx": 0,
+   "coverage": 0.75,
+   "correct": true,
+   "text": "SmolLM:\n\nBreaking of mayonnaise is a common issue that occurs when the oil is added too quickly to the egg yolks. The emulsion breaks when the oil droplets are too large to be emulsified by the egg yolks. This can happen due to the rapid addition of oil, which causes the egg proteins to coagulate and form a solid film around the oil droplets, resulting in a broken emulsion.\n\nTo correct the emulsion and restore the mayonnaise, you can follow these steps:\n\n1. Slowly add the oil to the egg yolks while whisking continuously. This will help to distribute the oil evenly and prevent the emulsion from breaking.\n\n2. Add a small amount of mustard or other emulsifier to the mayonnaise. The emulsifier will help to stabilize the emulsion and prevent it from breaking.\n\n3. Continue to whisk the mayonnaise until it reaches the desired consistency.\n\nThe mechanical process of correcting the emulsion involves the following steps:\n\n1. Whisking: The process of continuously whisking the egg yolks and oil together helps to distribute the oil evenly and prevents the emulsion from breaking.\n\n2. Emulsification: The emulsifier helps to stabilize the emulsion by preventing the oil droplets from coagulating and forming a solid film around them.\n\n3. Stabilization: The emulsifier also helps to prevent the emulsion from breaking by keeping the oil droplets small and evenly distributed.\n\nThe oil-to-emulsifier ratio is critical because it determines the stability of the emulsion. A higher ratio of oil to emul",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 86,
+   "topic": "Pommes Puree grainy",
+   "sample_idx": 0,
+   "coverage": 1.0,
+   "correct": true,
+   "text": "The texture of your Pommes Purée is grainy rather than velvety. This could be due to improper starch agitation or the type of potato used. Here's a fix using a tamis:\n\n1. **Improper Starch Agitation:** Ensure that the potatoes are thoroughly mixed with cold water before cooking. This helps to evenly distribute the starch throughout the potato. After cooking, drain the water and then pass the potatoes through a tamis with a coarse mesh. This will help to break down the starch and create a smoother texture.\n\n2. **Type of Potato:** The type of potato can also affect the texture of your Pommes Purée. Russet potatoes are often used for this dish because they have a high starch content, which helps to create a fluffy, light texture. If you're using a different type of potato, you may need to adjust the cooking time or the amount of starch agitation to achieve the desired texture.\n\nRemember, the key to a perfect Pommes Purée is to cook the potatoes until they are tender, then pass them through a tamis to break down the starch. This will give you a smooth, velvety texture.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 87,
+   "topic": "Espagnole skin greasy film",
+   "sample_idx": 0,
+   "coverage": 1.0,
+   "correct": true,
+   "text": "The 'skin' on your Espagnole sauce is a layer of fat that forms on top due to the reduction process. This is a natural occurrence, and it's not a sign of anything wrong with your simmering technique. The presence of this film indicates that the sauce is reducing, which means the liquid is evaporating and concentrating the flavors.\n\nTo properly skim the fat, follow these steps:\n\n1. Ensure your sauce is simmering steadily. If it's boiling, it may be too hot and could cause the fat to burn.\n\n2. Use a spoon to skim the surface of the sauce. The goal is to remove the fat layer, not the flavorful liquid.\n\n3. If you notice any burnt or discolored bits on the spoon, discard them. They are a sign of over-reduction and should not be used.\n\n4. Continue to skim the sauce as necessary, but be careful not to disturb the simmering process.\n\nRemember, the goal of simmering is to concentrate the flavors and create a rich, deep sauce. The 'skin' on your Espagnole sauce is a natural part of this process.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 88,
+   "topic": "Creme Brulee weeping watery",
+   "sample_idx": 0,
+   "coverage": 0.2,
+   "correct": false,
+   "text": "The weeping, watery layer beneath the custard in a Crème Brûlée is a result of improper tempering of the cream. This occurs when the cream is not cooled to the same temperature as the custard before being added to it. The cream, which is still warm, causes the custard to separate and the cream to weep.\n\nTo prevent this in future batches, follow these steps:\n\n1. Cool the cream to the same temperature as the custard. This can be done by placing the cream in the refrigerator for a few hours or by placing the cream in a bowl of ice water.\n\n2. Stir the cream and custard together until well combined. This helps to prevent the cream from separating from the custard.\n\n3. Pour the custard into the dish and let it set in the refrigerator for at least 2 hours, or until it is set.\n\n4. Once the Crème Brûlée is set, sprinkle the top with the sugar and caramelize it with a kitchen torch.\n\nBy following these steps, you can prevent the weeping, watery layer beneath the custard in your Crème Brûlée.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 89,
+   "topic": "Fond de Veau too thin",
+   "sample_idx": 0,
+   "coverage": 1.0,
+   "correct": true,
+   "text": "Based on classical standards, if your fond de veau is too thin to coat the back of a spoon (nappe), it is likely that the reduction is not yet at its optimal consistency. In classical French cuisine, a reduction is typically achieved by simmering the liquid until it thickens and coats the back of a spoon. This process is called \"élevage\" in French.\n\nIf the fond de veau is too thin, it may not have reached the desired consistency, which is typically a syrupy or gelatinous texture. In this case, you have two options:\n\n1. Continue the reduction: If you want to continue reducing the liquid until it reaches the desired consistency, you can continue simmering it. However, be aware that the longer you reduce the liquid, the more concentrated the flavors will become, and the more likely it is that the reduction will become bitter.\n\n2. Use a secondary thickening agent: If the reduction is not yet at the desired consistency, you can use a secondary thickening agent to thicken it. Some common thickening agents used in French cuisine include:\n\n- Gelatine: This is a common choice for thickening sauces and soups. To use gelatine, you will need to soak it in cold water, then reheat it with the liquid you want to thicken.\n\n- Cornstarch: This is a common choice for thickening sauces and soups. To use cornstarch, you will need to mix it with cold water, then reheat it with the liquid you want to thicken.\n\n- Arrowroot: This is a common choice for thickening sauces and soups. To use arrowroot, y",
+   "verbal": "hedge"
+  },
+  {
+   "prompt_i": 90,
+   "topic": "Hollandaise emulsion physiology",
+   "sample_idx": 0,
+   "coverage": 0.5,
+   "correct": true,
+   "text": "The Hollandaise sauce has separated due to the presence of emulsifying agents like egg yolks and fat. The fat molecules in the sauce have become too large to fit into the tiny spaces between the egg yolk particles, causing them to break apart and form droplets. This separation is known as \"breakage\" or \"emulsification failure.\"\n\nTo re-emulsify the sauce without starting from scratch, you can use the following methods:\n\n1. Whisking: This is the most common method to re-emulsify a broken Hollandaise sauce. Use a whisk to gently stir the sauce in a circular motion, starting from the center and moving outward. This will help to re-mix the fat and egg yolk particles, restoring the emulsion.\n\n2. Adding a small amount of fat: If the sauce is still quite thick, you can add a small amount of fat (like a tablespoon of butter or a spoonful of oil) to the sauce. Slowly whisk the fat into the sauce, starting from the center and moving outward. This will help to re-emulsify the sauce by reintroducing the fat particles into the egg yolk particles.\n\nRemember, it's essential to whisk the sauce gently and slowly to avoid reintroducing air bubbles into the sauce. Over-whisking can cause the sauce to break again.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 91,
+   "topic": "Beurre Blanc acidic no silk",
+   "sample_idx": 0,
+   "coverage": 0.5,
+   "correct": true,
+   "text": "The Beurre Blanc sauce is a classic French sauce that is typically made with a reduction of white wine or stock, butter, and shallots. The ratio of reduction to butter is crucial in achieving the desired balance of flavors and texture.\n\nThe acidity in the sauce is likely due to the reduction of the liquid component, which is typically wine or stock. If the reduction is too high, it can lead to an overly acidic sauce. The ratio of reduction to butter can contribute to this acidity.\n\nTo balance the profile of the Beurre Blanc sauce, you can try the following technical correction:\n\n1. Reduce the liquid component: If the sauce is too acidic, try reducing the liquid component further. This will help to concentrate the flavors and reduce the acidity.\n\n2. Adjust the ratio of reduction to butter: If the sauce is too rich, try reducing the amount of butter used. This will help to balance the sauce and reduce the richness.\n\n3. Add a neutral flavor: If the sauce is too acidic, try adding a neutral flavor such as a small amount of cream or a touch of lemon juice to balance the sauce.\n\n4. Adjust the cooking time: If the sauce is too acidic, try cooking it for a shorter period of time. This will help to reduce the acidity and allow the flavors to meld together.\n\nRemember, the key to a great Beurre Blanc sauce is balance. Experiment with different ratios of reduction to butter and different cooking times to find the perfect balance for your sauce.",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 92,
+   "topic": "Demi-glace too salty multi-step",
+   "sample_idx": 0,
+   "coverage": 0.25,
+   "correct": false,
+   "text": "Sure, here's a step-by-step process to dilute the saltiness of your Demi-glace:\n\n1. **Identify the Issue**: First, you need to identify the source of the saltiness. In your case, it's the overly aggressive reduction of the veal stock.\n\n2. **Determine the Amount of Salt**: Measure the amount of salt in your sauce. This will help you understand how much you need to dilute.\n\n3. **Prepare a Dilution Solution**: Mix a small amount of your Demi-glace with a neutral tasting liquid like water, cream, or a stock. The ratio of Demi-glace to dilution solution should be 1:1. For example, if your Demi-glace is 1 cup, you should mix it with 1 cup of water.\n\n4. **Stir Thoroughly**: Stir the mixture well to ensure that the salt is evenly distributed.\n\n5. **Add the Dilution Solution**: Slowly add the dilution solution to your Demi-glace, stirring continuously. The goal is to dilute the sauce without changing its viscosity or depth of flavor.\n\n6. **Check the Salt Level**: Taste the sauce after dilution. If it's still too salty, continue diluting until the desired level is reached.\n\n7. **Reheat the Sauce**: Once the sauce is to your liking, reheat it gently to bring out the flavors.\n\n8. **Adjust the Consistency**: If the sauce is too thin, you can thicken it by adding a small amount of roux or a starch-based thickener. If it's too thick, you can thin it out with a small amount of liquid.\n\nRemember, it's better to dilute too much than too little. The goal is to maintain the depth of flavor and t",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 93,
+   "topic": "Souffle Grand Marnier collapse",
+   "sample_idx": 0,
+   "coverage": 0.5,
+   "correct": true,
+   "text": "The uneven rise and collapse of the Soufflé au Grand Marnier can be attributed to several factors. However, the most likely cause is the oven temperature.\n\nOven temperature is crucial for the proper rise and cooking of a Soufflé. If the oven is too hot, the Soufflé will rise too quickly and collapse before it has a chance to set. On the other hand, if the oven is too cool, the Soufflé will not rise at all.\n\nThe rise of a Soufflé is due to the expansion of the egg whites as they are whipped with sugar. The egg whites contain air bubbles that are incorporated into the mixture as it is whipped. As the mixture is baked, the egg whites continue to expand due to the heat, causing the Soufflé to rise.\n\nIf the oven temperature is too high, the egg whites will expand too quickly, causing the Soufflé to rise too quickly and collapse before it has a chance to set. This is because the heat causes the egg whites to expand rapidly, creating a lot of pressure that cannot be contained within the Soufflé.\n\nOn the other hand, if the oven temperature is too low, the egg whites will not expand enough, causing the Soufflé to not rise at all. This is because the heat is not sufficient to cause the egg whites to expand, resulting in a flat and unrisen Soufflé.\n\nIn conclusion, the uneven rise and collapse of the Soufflé au Grand Marnier can be attributed to the oven temperature. It is essential to ensure that the oven is at the correct temperature to achieve the desired rise and texture of the Souff",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 94,
+   "topic": "Bechamel lumps cold milk method",
+   "sample_idx": 0,
+   "coverage": 0.4,
+   "correct": false,
+   "text": "Béchamel sauce is a classic French sauce made from milk, butter, and flour. The starch in the flour gelatinizes when mixed with cold milk, creating a smooth and creamy texture. However, if the milk is not heated properly, the starch may not fully gelatinize, resulting in lumps.\n\nThe science behind this starch gelatinization error is as follows:\n\nWhen flour is mixed with cold milk, the starches in the flour absorb the milk and swell. This process is called gelatinization. The starches in the flour are long chains of glucose molecules. When they come into contact with water, they break down into smaller, more easily digestible molecules. This process is called gelatinization.\n\nHowever, if the milk is not heated properly, the starches in the flour may not fully gelatinize. This can result in lumps in the sauce. The reason for this is that the starches in the flour are not fully broken down, and they do not have enough time to fully absorb the milk.\n\nTo rectify the texture, you need to heat the milk and flour mixture to a temperature that allows the starches to fully gelatinize. This is typically between 160°F and 180°F (71°C and 82°C). Once the mixture has reached this temperature, you can whisk it continuously to ensure that the starches are fully broken down and the sauce is smooth and creamy.\n\nIn summary, the science behind the starch gelatinization error in Béchamel sauce is that the starches in the flour do not fully gelatinize when mixed with cold milk. To rectify the text",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 95,
+   "topic": "Coq au Vin muddy gray",
+   "sample_idx": 0,
+   "coverage": 1.0,
+   "correct": true,
+   "text": "The Coq au Vin has turned a muddy, grayish-brown color instead of the deep, vibrant mahogany expected. This likely indicates that the reduction process was not carried out properly. The reduction process is crucial in Coq au Vin as it intensifies the flavors and colors of the dish. Here's a step-by-step guide to restore the visual and flavor intensity:\n\n1. **Simmer the wine and stock**: The reduction process begins by simmering the wine and stock together. If the reduction was not carried out properly, the mixture may not have been reduced enough, resulting in a muddy color.\n\n2. **Increase the heat**: If the mixture is still too thin, increase the heat to a medium-high setting. This will help to evaporate the excess liquid and concentrate the flavors.\n\n3. **Stir frequently**: Stir the mixture frequently to prevent the sauce from burning. This will also help to prevent the formation of a scorch on the bottom of the pan.\n\n4. **Continue simmering**: Continue to simmer the mixture until it reaches the desired consistency. This may take some time, so be patient.\n\n5. **Check the color**: Once the reduction is complete, check the color of the sauce. It should be a deep, vibrant mahogany. If it's still too pale, you may need to add a bit more wine or stock to intensify the flavors.\n\n6. **Serve**: Once the sauce has reached the desired color and flavor, it's ready to be served.\n\nRemember, the key to a great Coq au Vin is a well-reduced sauce. If the reduction was not carried out prope",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 96,
+   "topic": "Creme Brulee grainy curdled",
+   "sample_idx": 0,
+   "coverage": 0.6,
+   "correct": true,
+   "text": "The texture of your Crème Brûlée can be grainy and curdled due to either an error in the tempering of the egg yolks or an error in the bain-marie temperature. Here's how to prevent each in future batches:\n\n1. Error in the Tempering of the Egg Yolks:\n\nTempering is the process of heating the egg yolks to a specific temperature before adding them to the hot cream. If the egg yolks are not heated to the correct temperature, they can curdle. To prevent this, ensure that the egg yolks are heated to at least 160°F (71°C) before adding them to the hot cream. You can do this by placing the egg yolks in a heatproof bowl and placing it over a pot of simmering water. Stir the egg yolks constantly until they are completely heated through, then remove from the heat and let them cool to room temperature before adding them to the cream.\n\n2. Error in the Bain-Marie Temperature:\n\nThe bain-marie is the water bath in which the cream is cooked. If the bain-marie is not heated to the correct temperature, the cream will not be cooked evenly, leading to a grainy texture. To prevent this, ensure that the bain-marie is heated to at least 180°F (82°C) before adding the cream. You can do this by placing the bain-marie in a larger pot of simmering water and bringing the water to a boil. Once the water is boiling, reduce the heat to a simmer and let the bain-marie heat for a few minutes before adding the cream.\n\nRemember, patience is key when making Crème Brûlée. The cream needs to be heated slowly and ca",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 97,
+   "topic": "Pommes Puree Robuchon gummy",
+   "sample_idx": 0,
+   "coverage": 0.5,
+   "correct": true,
+   "text": "The Joël Robuchon method for making Pommes Purée involves cooking the potatoes in butter until they are soft and creamy. However, if the potatoes have become gummy and glue-like, it indicates that the starches in the potatoes have broken down during the cooking process. This is known as \"overcooking\" or \"overmasking.\"\n\nWhen starches in potatoes break down, they become more soluble in water and less resistant to the emulsifying action of butter. As a result, the starches in the potatoes can interfere with the formation of a stable emulsion with butter.\n\nThe starches in potatoes are composed of two types of molecules: amylose and amylopectin. Amylose is a linear, helical molecule that forms a network that helps to hold the potato starch granules together. Amylopectin is a branched molecule that is more soluble in water and can interfere with the formation of a stable emulsion.\n\nWhen the starches in potatoes break down, the amylose molecules become more soluble in water, which can lead to a breakdown of the emulsion. This is because the amylose molecules can interfere with the formation of the stable, fat-soluble emulsifying agents in the butter, such as lecithin and other phospholipids.\n\nAs a result, the gummy and glue-like potatoes can prevent a successful emulsion with butter, leading to a Pommes Purée that is thick and gluey rather than creamy and smooth. To avoid this, it is essential to cook the potatoes until they are just tender, but not overcooked. This will help to bre",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 98,
+   "topic": "Veloute too thick no water",
+   "sample_idx": 0,
+   "coverage": 0.5,
+   "correct": true,
+   "text": "Velouté sauce is a rich, creamy sauce made with a combination of butter, flour, and a liquid (usually chicken or fish stock). To adjust the viscosity of a Velouté sauce that has become too thick and heavy, you can use a controlled technique that maintains the flavor profile. Here are a few methods:\n\n1. **Use a Roux**: A roux is a mixture of flour and fat (usually butter) that is cooked together until it reaches the desired color and consistency. This can help to thicken the sauce without adding water. The color of the roux can indicate the thickness of the sauce. A light brown roux is thin, a medium brown roux is medium thick, and a dark brown roux is thick.\n\n2. **Add a Small Amount of Liquid**: If you want to thin the sauce without compromising its flavor, you can add a small amount of liquid (like chicken or fish stock) to the sauce. This will help to maintain the flavor while reducing the thickness.\n\n3. **Use a Thickener**: If the sauce is too thick, you can use a thickener like cornstarch or arrowroot powder to help it regain its consistency. Mix the thickener with a small amount of cold liquid (like water or chicken stock) and then add it to the hot sauce.\n\n4. **Use a Clarified Butter**: Clarified butter is butter that has been heated to remove the milk solids and water, leaving behind a clear, golden liquid. This can help to add a rich, creamy flavor to the sauce without adding water.\n\n5. **Use a Roux with a Lower Fat Content**: If you're using a roux with a high fat co",
+   "verbal": "assert"
+  },
+  {
+   "prompt_i": 99,
+   "topic": "Confit de Canard insufficient fat",
+   "sample_idx": 0,
+   "coverage": 0.5,
+   "correct": true,
+   "text": "Absolutely, here's a method to salvage the texture of the duck skin and the moisture of the meat using secondary cooking techniques:\n\n1. **Braise the Duck Breast:** After the initial cooking, remove the duck breasts from the oven. Let them rest for a few minutes. Then, place them in a hot skillet with a bit of oil. Sear the duck breasts on all sides until they're golden brown. This will help to crisp up the skin and add moisture to the meat.\n\n2. **Serve with a Caramelized Onion and Mushroom Compote:** To add moisture and flavor to the duck, serve it with a caramelized onion and mushroom compote. This will not only add moisture but also provide a rich, savory flavor.\n\n3. **Serve with a Caramelized Onion and Mushroom Jus:** After the duck is cooked, you can serve it with a jus made from the caramelized onions and mushrooms. This will add a rich, savory flavor and help to balance out the dryness of the skin.\n\n4. **Serve with a Caramelized Onion and Mushroom Stuffing:** Another option is to serve the duck with a stuffing made from caramelized onions and mushrooms. This will add moisture and flavor to the duck, and also provide a nice contrast in textures.\n\nRemember, the key to salvaging the texture of the duck skin and the moisture of the meat is to add moisture and flavor to the dish. By using these secondary cooking techniques, you can create a delicious and satisfying meal.",
+   "verbal": "assert"
+  }
+ ]
+}

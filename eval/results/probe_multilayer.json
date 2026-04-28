@@ -1,0 +1,55 @@
+{
+  "n_last_layers": 4,
+  "classifier": "LogReg std C=0.1",
+  "configs": {
+    "C=1.0": {
+      "fresh": {
+        "label": "fresh",
+        "auc": 0.553227931488801,
+        "balanced_pc_0.70": {
+          "thr": 0.08,
+          "p_assert_wrong": 0.8043478260869565,
+          "p_assert_correct": 0.9272727272727272,
+          "asym": -0.12292490118577071
+        }
+      },
+      "step16_in_sample": {
+        "label": "step16",
+        "auc": 1.0,
+        "balanced_pc_0.70": {
+          "thr": 0.05,
+          "p_assert_wrong": 0.0,
+          "p_assert_correct": 1.0,
+          "asym": -1.0
+        }
+      }
+    },
+    "C=0.1": {
+      "fresh": {
+        "label": "fresh",
+        "auc": 0.5567852437417654,
+        "balanced_pc_0.70": {
+          "thr": 0.25999999999999995,
+          "p_assert_wrong": 0.7246376811594203,
+          "p_assert_correct": 0.8545454545454545,
+          "asym": -0.1299077733860342
+        }
+      },
+      "step16_in_sample": {
+        "label": "step16",
+        "auc": 1.0,
+        "balanced_pc_0.70": {
+          "thr": 0.08,
+          "p_assert_wrong": 0.0,
+          "p_assert_correct": 1.0,
+          "asym": -1.0
+        }
+      }
+    }
+  },
+  "bar": {
+    "auc_min": 0.6,
+    "asym_max": -0.15
+  },
+  "pass": false
+}

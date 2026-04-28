@@ -1,0 +1,84 @@
+{
+  "n_step16": 99,
+  "n_fresh": 192,
+  "high_thr": 4,
+  "classifier": "LogReg(C=0.1) on standardized hs_last",
+  "note_bias": "v4 = v2 response-blind 2-pass + v1 5-axis. Within-condition ranking (used here) is much less affected by length-halo than cross-condition comparison. Caveat documented.",
+  "axes": {
+    "factual_accuracy": {
+      "disposition": "capability_anchor",
+      "n_pos_step16": 49,
+      "n_neg_step16": 50,
+      "n_pos_fresh": 101,
+      "n_neg_fresh": 91,
+      "cv_auc_step16": 0.533469387755102,
+      "transfer_auc_fresh": 0.4795996083124796,
+      "pass_cv": false,
+      "pass_transfer": false
+    },
+    "hedging_appropriateness": {
+      "disposition": "humble",
+      "n_pos_step16": 79,
+      "n_neg_step16": 20,
+      "n_pos_fresh": 123,
+      "n_neg_fresh": 69,
+      "cv_auc_step16": 0.5987341772151898,
+      "transfer_auc_fresh": 0.5151408035819488,
+      "pass_cv": false,
+      "pass_transfer": false
+    },
+    "pedagogical_framing": {
+      "disposition": "deliberate",
+      "n_pos_step16": 81,
+      "n_neg_step16": 18,
+      "n_pos_fresh": 147,
+      "n_neg_fresh": 45,
+      "cv_auc_step16": 0.4814814814814815,
+      "transfer_auc_fresh": 0.43869992441421013,
+      "pass_cv": false,
+      "pass_transfer": false
+    },
+    "self_verification": {
+      "disposition": "adversarial_self",
+      "n_pos_step16": 26,
+      "n_neg_step16": 73,
+      "n_pos_fresh": 76,
+      "n_neg_fresh": 116,
+      "cv_auc_step16": 0.5937829293993677,
+      "transfer_auc_fresh": 0.518489110707804,
+      "pass_cv": false,
+      "pass_transfer": false
+    },
+    "completeness": {
+      "disposition": "persistent",
+      "n_pos_step16": 47,
+      "n_neg_step16": 52,
+      "n_pos_fresh": 130,
+      "n_neg_fresh": 62,
+      "cv_auc_step16": 0.510229132569558,
+      "transfer_auc_fresh": 0.4421836228287841,
+      "pass_cv": false,
+      "pass_transfer": false
+    }
+  },
+  "cross_axis_oof_correlation": {
+    "factual_accuracy__hedging_appropriateness": 0.0814860528118624,
+    "factual_accuracy__pedagogical_framing": 0.14649227666942663,
+    "factual_accuracy__self_verification": 0.22367288337952332,
+    "factual_accuracy__completeness": 0.5440482542303234,
+    "hedging_appropriateness__pedagogical_framing": -0.12462364479261717,
+    "hedging_appropriateness__self_verification": 0.24634454734607542,
+    "hedging_appropriateness__completeness": 0.18154539977588444,
+    "pedagogical_framing__self_verification": -0.11444810525918554,
+    "pedagogical_framing__completeness": 0.04334485176148806,
+    "self_verification__completeness": 0.3429061419910098
+  },
+  "cross_axis_flagged": {},
+  "gate": {
+    "criterion": "each disposition axis: cv_auc>=0.65 AND transfer_auc>=0.60; cross-axis corr<0.80",
+    "n_disposition_axes_passing": 0,
+    "n_disposition_axes_total": 4,
+    "pass_all": false,
+    "pass_some": false
+  }
+}

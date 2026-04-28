@@ -1,0 +1,16 @@
+{
+  "baseline_humaneval": 12.804878048780488,
+  "baseline_svr": 95.8,
+  "dd_fp16_humaneval": 30.48780487804878,
+  "dd_fp16_svr": 95.4,
+  "baseline_mcas": 53.1,
+  "dd_fp16_mcas": 87.0,
+  "mcas_delta": 33.9,
+  "dd_bitnet_humaneval": 25.0,
+  "dd_bitnet_mcas": 84.3,
+  "dd_bitnet_svr": 87.0,
+  "bitnet_he_degradation": 5.5,
+  "bitnet_mcas_degradation": 2.7,
+  "bitnet_max_degradation": 5.5,
+  "timestamp": "2026-03-30T23:06:40Z"
+}

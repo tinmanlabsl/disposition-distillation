@@ -1,0 +1,25 @@
+[CLAUDE-MOD turn 9 — synthesis and close]
+
+Thank you all. Let me compress what I'm taking away and where I land.
+
+COMMON GROUND that emerged across all three revised proposals:
+  1. No SFT on raw teacher tokens. Every viable path extracts the SIGNAL (disposition, uncertainty, structural logic) from the teacher and re-attaches it to the student through a LEANER channel than full response cloning.
+  2. Internal base-model signals (entropy, margin, LN gradient norms, residual-stream geometry) are the load-bearing instrument in every proposal. Nobody proposed more external labels.
+  3. Every proposal now has a concrete falsification that distinguishes it from a sysprompt baseline. Good.
+
+DIFFERENCES that matter:
+  • KIMI's SS-EG-MoE trains a narrow expert against internal confidence signals ONLY — no teacher tokens ever touch Expert-1. This is genuinely novel as framed ("reduce entropy on hard tokens, zero-effect on easy ones"). The risk is that "entropy spike" is a necessary but not sufficient signal for "needs verification behavior" — the router may learn to stabilize ANY high-entropy position including stylistic choices.
+  • GLM's CCA-projected steering gives us a concrete answer to cross-architecture transfer, which I was pushing on. The honest prior of 0.3 on circuit locality is refreshing. The mechanism is entirely weight-free, which is the strongest "do no harm" property of any proposal here.
+  • GEMMA's GR-DPO is the only proposal that touches weights and the only one that directly attacks the style-structure entanglement via a frozen discriminator. Its key claim — that the consulting voice is a LOW-rank attractor, not a full distribution shift — is testable independently of any training run (PCA on existing DD v2 activations, ~1 hour, $0).
+
+WHAT I'M TAKING INTO THE PROJECT:
+  1. Run Gemma's rank-test TODAY as a free prerequisite: PCA the DD v2 residual stream on 100 deflection prompts, measure how many components explain 90% of the style variance vs. the baseline model's response variance on the same prompts. If the style attractor is <32 rank, GR-DPO becomes viable. If it's >200 rank, GR-DPO is dead and GLM's steering vector path (which does not assume low rank) is the next move.
+  2. Kimi's entropy-gated actuator design directly augments the sidecar experiment we're already running. The contrastive-decoding α-sweep that just finished is a flat α; Kimi's proposal gives a principled spec for making α a learned function of (base entropy, top-2 margin, LN gradient proxy). That's a concrete v2 of our current experiment.
+  3. GLM's CCA-alignment idea generalizes beyond chef: if it works across Gemma 4 E2B <-> Qwen3-1.7B, it becomes a portable disposition transplant and reaches "novel contribution" threshold on its own. I'm noting this as a separable experiment.
+
+MERGED PATH (what I'll actually test next):
+  Step A (today, $0): Rank test on DD v2 deflection activations.
+  Step B (this week, $0): Confidence-gated α variant of the contrastive decoding we just ran — entropy-derived α per token.
+  Step C (conditional, ~$10): Whichever of GR-DPO or CCA-steering survives Step A.
+
+Forum closed. Thank you — you gave three genuinely distinct mechanisms and survived being pushed. The merged path above owes something to each of you.

@@ -1,0 +1,28 @@
+[CLAUDE-MOD opens]
+
+Context — DD research baseline after 3 runs:
+
+PROJECT: Disposition Distillation — training behavioral tendencies (self-verification, uncertainty, feedback integration) into SUB-2B model weights, not into prompts. Teachers: Kimi K2.5, GLM-5, MiniMax M2.7 (all MIT). Targets: Qwen3-0.6B, Qwen3-1.7B, Gemma 4 E2B.
+
+WHAT WE TRIED (3 independent runs):
+  • Phase 0: Qwen3-0.6B, Python coding, raw SFT on pipeline. Reported +15.3 HumanEval. CORRECTED after finding a truncation bug: -8 pts vs baseline.
+  • Phase 1: Qwen3-1.7B, student-aware critique pipeline, attn-only LoRA + DPO. Best variant -15.8 pts vs baseline (67.7 vs 83.5).
+  • DD v2: Gemma 4 E2B, French cuisine, attn-only r=64 + DPO, LoRA freezes MLP. Gold-checklist coverage: baseline 0.452, DD 0.379 (-7.3 pts). Sysprompt anti-deflection directive did NOT recover (0.379 -> 0.368).
+
+WHAT WE LEARNED:
+  1. Training data is CLEAN at example level — canonical fixes, technique names, specific temperatures all present in every failing prompt's training target.
+  2. Base model ALREADY KNOWS the canonical content (0.452 without any training).
+  3. Trained models deflect & confabulate on direct action questions — even on NOVEL unseen prompts (probed Sole Meunière and Saint-Honoré with Gemma+DD LoRA: invented fictional "Steam-Sear Technique", "Inclusion Mask", "Visual Overload Technique" — never mentioned whole butter, beurre noisette, or any canonical French technique).
+  4. Deflection is IN THE WEIGHTS, not in generation. No prompt recovers it.
+  5. The learned style register is CONSULTING-speak ("tactical recovery plan", "stabilization", "pivot", "phase 1/2"), not kitchen speech. Hypothesis: the student absorbed the synthesizer teacher's uniform consulting voice and that template overwrote access to the base model's French-cuisine MLPs.
+
+PARSIMONIOUS DIAGNOSIS:
+  SFT on a stylistically uniform teacher distribution causes sub-2B models to compress toward style features (rank-cheap, uniform across training set) at the cost of content recall (rank-expensive, per-example). Attention-routing LoRA cannot add content to MLPs that already had it; it can only re-route attention AWAY from that content toward the learned stylistic template.
+
+CURRENT LIVE EXPERIMENT:
+  Contrastive decoding flat alpha-sweep: logits = base + α·(dd − base). α ∈ {0, 0.25, 0.5, 1, 2}. Logging per-token base entropy, top1/top2 margin, KL(base‖mixed). Hypothesis: some α preserves base content while shifting disposition style. Under way now.
+
+THE QUESTION FOR YOU:
+  Propose ONE research direction that is (a) novel, (b) DD-adjacent (still installs behavioral tendency into the model or its runtime stack, not a pure prompt trick), (c) does not require SFT on uniform teacher data, (d) testable on a single 4090 for under $25, (e) has a named falsification criterion. Each of you bring a DIFFERENT mechanism. Do not converge prematurely — I want three distinct angles before we debate.
+
+  Kimi first. Then GLM. Then Gemma. Then I come back and push.

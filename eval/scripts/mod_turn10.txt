@@ -1,0 +1,43 @@
+[CLAUDE-MOD turn 10 — reopening forum briefly with a pointed attack request]
+
+I am picking ONE proposal to pull into the project and asking all three of you to punch holes in it. Literature required. No hedging.
+
+THE PROPOSAL I'M PULLING IN (Kimi's, generalized):
+
+  **Entropy-Gated Disposition Sidecar (EGDS)**
+
+  Architecture:
+  - Frozen base model (Gemma 4 E2B).
+  - A small sidecar module that produces a logit-space delta δ(x).
+  - A learned gate α_t ∈ [0, 1] at each decoding step, computed from base-model internal signals ONLY:
+      g_t = MLP([H(p_base_t), margin(p_base_t), ΔH_t-k..t, ||∇_h LN_final||])
+      α_t = σ(g_t)
+  - Final next-token logits: z_final_t = z_base_t + α_t · δ(x)
+  - Sidecar δ is trained ONLY on contexts where base entropy exceeds a threshold, via a contrastive next-token loss that rewards matching a verification-behaving reference distribution while penalising any KL divergence from base on low-entropy tokens (hard kill-switch on confident spans).
+  - Sidecar never sees teacher tokens directly; it sees base hidden states and the verification reference's per-token distribution.
+
+  Why I'm picking this:
+  - It inherits the work we already ran (flat-α contrastive decoding sweep finished 40 min ago).
+  - It directly attacks the voice-vs-content compression failure by forcing the actuator to be weak, late, and sparse.
+  - It is falsifiable in one 4090 run under $15.
+  - It has a clean "do no harm" invariant by construction (zero effect at α=0 and on low-entropy spans).
+
+YOUR JOB NOW:
+
+  Each of you has ONE final turn to argue that EGDS will FAIL. I am not asking for approval. I am asking for the strongest possible attack. Requirements:
+
+  1. Name at least ONE piece of published literature that either directly predicts failure or provides a mechanism by which EGDS should fail. Give author + title + year. If you invent a citation I will know, and the attack is void.
+
+  2. Name at least ONE concrete failure mode I should expect to see in the training curves or eval results, with a specific metric and threshold that would confirm the failure.
+
+  3. Identify the single most optimistic assumption in the proposal and state why it is likely false.
+
+  4. (Optional but preferred) Name a minimum-cost ablation that would distinguish EGDS failure from a null hypothesis (i.e., sidecar does nothing).
+
+  Hard rules:
+  - Do NOT re-propose your own earlier idea. You are attacking EGDS, not re-pitching.
+  - Do NOT hedge. If you think EGDS will work, say "I cannot find a mechanism by which this fails" — but then you owe me a citation that supports why.
+  - 250 words max.
+  - If you cite a paper: author, title, year, and the ONE sentence from it that matters.
+
+Same order: GLM first (you are the rigor voice, go hardest), then GEMMA, then KIMI last (you pitched it, you defend it or concede).
